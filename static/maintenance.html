@@ -11,7 +11,7 @@
 <tr><td>正式域名及统计接口</td><td><code>content/settings.json</code></td></tr></tbody></table></div>
 <p>同一条记录的标题自动同步到首页、列表、详情页和搜索。项目 Fund 的名称与链接修改 <code>fund_details</code>；活动 Date、Event、Location 与链接修改 <code>activity_details</code>。完整正文在对应 <code>body.html</code> 中编辑。</p>
 <h2>添加论文、项目、会议或活动</h2><ol><li>复制 <code>content/site.json</code> 中同类记录，修改 path、title、日期、作者、摘要、链接及图片。</li><li>在 pages 数组增加相应页面记录，在 <code>content/pages/</code> 增加对应 <code>body.html</code>。记录与页面的 path 必须一致。</li><li>需要首页展示时，把路径加入相应 <code>home_lists</code>。首页项目和活动显示 6 条，奖项和任职显示 8 条，其余在 View all 中查看。</li><li>上传图片到 <code>static/assets/</code>，引用地址仍写为 <code>/assets/...</code>。Gallery 的十张原始照片保留全图比例，单行滑动。</li><li>提交源内容后等待自动发布。错误的 JSON、缺失的正文或站内链接会阻止发布。</li></ol>
-<h2>浏览次数</h2><p>Total views 需要独立统计接口。GitHub Pages 不提供数据库后台。接口尚未连接时显示 Not connected；离线显示 Online only；存储或网络故障显示 Unavailable。不会使用本地存储或模拟数字冒充真实累计浏览量。后台代码和部署说明位于源码 <code>counter/</code>。</p>
+<h2>浏览次数</h2><p>右下角 Total views 使用自建不蒜子服务统计全站页面访问量（PV），刷新或打开内页会累计，不等于独立访客人数。新计数从 2026-10-29 接入时开始，旧站历史数字没有自动合并。统计设置在 <code>content/settings.json</code> 的 <code>counter</code> 中，正常编辑网页无需修改它。离线显示 Online only；接口或网络故障显示 Unavailable。服务数据存储在第三方后台，本站重新发布不会主动清零。详情见仓库 README。</p>
 <h2>本地预览与备用编辑助手</h2><p>本地运行 <code>python3 build.py</code> 后打开 <code>public/index.html</code>。仅需 Python 3.9 及以上，无第三方依赖。图片、导航、搜索和图库可离线浏览。</p><p>本地可视化编辑助手保留用于临时预览。它下载的成品 HTML 不会写回源内容，下一次自动生成会覆盖这些改动。长期维护请始终编辑 <code>content/</code> 和 <code>static/</code>。</p>
 <h2>域名与发布</h2><p>正式地址为 <a href="https://wentaochen.cn/">https://wentaochen.cn/</a>，托管于 GitHub Pages。规范地址、站点地图和 robots 默认读取 <code>content/settings.json</code> 的 <code>site_url</code>；域名解析与 Enforce HTTPS 在阿里云和 GitHub Pages 设置中管理。仓库中的 README 与 <code>docs/DEPLOYMENT_中文.md</code> 提供完整步骤。</p>
 </body></html>

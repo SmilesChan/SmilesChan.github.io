@@ -1,7 +1,9 @@
 {
   "site_url": "https://wentaochen.cn",
   "counter": {
-    "endpoint": "",
+    "provider": "busuanzi",
+    "endpoint": "https://busuanzi.9420.ltd/api",
+    "started_at": "2026-10-29",
     "timeout_ms": 8000
   }
 }

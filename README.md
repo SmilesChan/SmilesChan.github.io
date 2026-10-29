@@ -2,7 +2,7 @@
 
 **已发布：** https://wentaochen.cn/  
 **自动发布：** 修改 `content/` 并提交到 `main` 后，检查、构建和发布会自动运行。  
-**待完成：** 在 Pages 勾选 Enforce HTTPS，并复核 www 入口的证书与跳转；独立浏览次数后台连接。
+**待确认：** Pages 的 Enforce HTTPS 设置，以及 www 入口的证书与跳转。
 
 2026-10-29 首次部署已通过 GitHub Actions 全部检查。252 个公开网页和资源（含 84 个 HTML 页面）的 HTTP 下载与生成文件完全一致；线上搜索、论文筛选、项目链接、Gallery 和 390px 手机布局均已验证。随后已确认阿里云根域名 A 和 www CNAME 指向 GitHub Pages，且 `https://wentaochen.cn/` 返回正确首页。此结果不代表已验证中国大陆各网络访问。详见 `migration/TEST_RESULTS.json`。
 
@@ -35,9 +35,11 @@
 
 ## 浏览次数统计
 
-GitHub Pages 不运行数据库后台。`counter/` 提供独立 Cloudflare Worker + D1 适配器，保留跨设备累计 PV、原子递增和只保存总数/开始时间的设计。它尚需部署到你自己控制的账号，再把真实 HTTPS 地址填入 `content/settings.json` 的 `counter.endpoint`。
+已接入公开的自建不蒜子计数服务（soxft/busuanzi）：`https://busuanzi.9420.ltd/api`。无需另购服务器；首页和内页右下角显示同一域名的累计页面访问量 PV，刷新或打开新页面增加一次。这个数字不是独立访客人数。
 
-当前 `endpoint` 留空，网页明确显示 **Not connected**，不会请求旧 Sites 接口，不会虚构浏览量。详见 [统计后台部署](counter/README_中文.md)。旧站真实计数快照在 `migration/counter-snapshot.json`；正式切换前必须刷新快照，不能把它当作实时总量。
+设置位于 `content/settings.json` 的 `counter`：`provider` 为 `busuanzi`，`endpoint` 为上述 HTTPS 接口。新计数于 **2026-10-29** 接入，包含验证访问；旧 Sites 的历史数字没有自动合并。数据由该第三方服务存储，重新发布本站不会主动清零。接口失败显示 Unavailable；离线显示 Online only。页面只向接口发送公开规范网址，不发送查询参数、Cookie 或持久访客标识；服务端会收到正常网络请求信息。服务项目与 API 文档：https://github.com/soxft/busuanzi/wiki/api 。
+
+若日后需要自有后台，`counter/` 仍保留 Worker + D1 适配器；部署后把 `provider` 改为 `custom` 并填入真实接口。旧站真实计数快照保留在 `migration/counter-snapshot.json`，未加到新服务的数字中。详见 [统计后台部署](counter/README_中文.md)。
 
 ## 本地重建与检查
 

@@ -6,7 +6,7 @@ Generated pages are not the canonical source.
 """
 from pathlib import Path
 from html.parser import HTMLParser
-import html, json, os, posixpath, re, shutil, tempfile, xml.etree.ElementTree as ET
+import hashlib, html, json, os, posixpath, re, shutil, tempfile, xml.etree.ElementTree as ET
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
@@ -16,6 +16,7 @@ STATIC = ROOT / 'static'
 SITE = json.loads((CONTENT / 'site.json').read_text(encoding='utf-8'))
 SETTINGS = json.loads((CONTENT / 'settings.json').read_text(encoding='utf-8'))
 SITE_BASE = (os.environ.get('SITE_URL') or SETTINGS['site_url']).rstrip('/')
+VISITS_VERSION = hashlib.sha256((STATIC / 'assets/visits.js').read_bytes()).hexdigest()[:12]
 PROFILE = SITE['profile']
 RECORDS = SITE['records']
 BY_PATH = {r['path']: r for r in RECORDS}
@@ -89,6 +90,9 @@ def shell(path, title, body, mainclass='', description=None):
   <meta name="author" content="{esc(PROFILE['name'])}">
   <meta name="theme-color" content="#165b9e">
   <meta name="site-views-endpoint" content="{esc(SETTINGS['counter'].get('endpoint',''))}">
+  <meta name="site-views-provider" content="{esc(SETTINGS['counter'].get('provider','custom'))}">
+  <meta name="site-views-started-at" content="{esc(SETTINGS['counter'].get('started_at',''))}">
+  <meta name="site-views-timeout" content="{esc(SETTINGS['counter'].get('timeout_ms',8000))}">
   {'<base href="'+esc(SITE_BASE+'/')+'">' if path=='/404.html' else ''}
   <link rel="canonical" href="{esc(SITE_BASE + path)}">
   <title>{esc(title)}{' | Wentao Chen' if title != 'Wentao Chen' else ''}</title>
@@ -97,7 +101,7 @@ def shell(path, title, body, mainclass='', description=None):
   <script src="{esc(link('/assets/theme.js',path))}"></script>
   <script defer src="{esc(link('/assets/search-data.js',path))}"></script>
   <script defer src="{esc(link('/assets/site.js',path))}"></script>
-  <script defer src="{esc(link('/assets/visits.js',path))}"></script>
+  <script defer src="{esc(link('/assets/visits.js',path))}?v={VISITS_VERSION}"></script>
 </head>
 <body>
 {header(path)}
@@ -303,6 +307,11 @@ def validate_content():
     if parsed.scheme!='https' or not parsed.netloc or parsed.query or parsed.fragment:
         raise ValueError('site_url/SITE_URL must be an absolute HTTPS URL without query or fragment')
     endpoint=SETTINGS['counter'].get('endpoint','')
+    if SETTINGS['counter'].get('provider','custom') not in ['custom','busuanzi']:
+        raise ValueError('counter.provider must be custom or busuanzi')
+    timeout=SETTINGS['counter'].get('timeout_ms',8000)
+    if type(timeout) is not int or not 1000 <= timeout <= 30000:
+        raise ValueError('counter.timeout_ms must be an integer between 1000 and 30000')
     if endpoint:
         parsed=urlsplit(endpoint)
         if parsed.scheme!='https' or not parsed.netloc or parsed.username or parsed.password or parsed.fragment:

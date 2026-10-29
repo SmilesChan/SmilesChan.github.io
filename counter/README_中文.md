@@ -1,6 +1,8 @@
 # 独立浏览次数后台
 
-此目录是可测试、可部署的 Worker + D1 适配器，不依赖 ChatGPT Sites。GitHub Pages 仅负责网页。需要你自己控制的 Cloudflare 账号与 D1 数据库；本迁移尚未代替你创建这些资源。
+当前网站已接入公开的自建不蒜子服务（soxft/busuanzi），不需要部署此目录。接口为 `https://busuanzi.9420.ltd/api`，由本地前端适配器请求其全站 `site_pv`；不加载第三方脚本、不保存访客身份令牌。统计从 2026-10-29 接入起累计，旧 Sites 数字未自动导入。官方 API 文档：https://github.com/soxft/busuanzi/wiki/api 。公共服务由维护者运营，其存储与可用性由服务方管理。
+
+以下是日后改用自有后台时的说明。此目录是可测试、可部署的 Worker + D1 适配器，不依赖 ChatGPT Sites。需要你自己控制的 Cloudflare 账号与 D1 数据库；本迁移尚未代替你创建这些资源。
 
 Cloudflare Workers 和 D1 有免费额度，是否适用及用量上限以你账号当前官方计划为准。使用自有后台不代表任意地区都保证可达，正式启用前仍需实际网络测试。
 
@@ -30,7 +32,7 @@ wrangler deploy --config wrangler.local.jsonc
 
 导入仅在计数不存在时写入，重复执行不会重置已累计的值。新后台开始接收正式访问后，不应反复导入旧站快照；如果迁移期间旧站仍有访问，应在交接时明确计数截至时间，避免声称包含了未经同步的增量。
 
-7. 将真实接口 `https://<你的Worker地址>/api/site-views` 写入 `content/settings.json` → `counter.endpoint` 并提交。不得填写示例域名。自动发布后页脚开始读取真实共享总量。
+7. 将真实接口 `https://<你的Worker地址>/api/site-views` 写入 `content/settings.json` → `counter.endpoint`，把 `counter.provider` 改为 `custom` 并提交。不得填写示例域名。自动发布后页脚开始读取自有后台的真实共享总量。
 
 ## 验证
 
