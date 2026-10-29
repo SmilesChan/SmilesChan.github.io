@@ -1,10 +1,10 @@
 # Wentao Chen — GitHub Pages 学术网站
 
-**已发布：** https://smileschan.github.io/  
+**已发布：** https://wentaochen.cn/  
 **自动发布：** 修改 `content/` 并提交到 `main` 后，检查、构建和发布会自动运行。  
-**待完成：** `wentaochen.cn` 的 GitHub Pages 绑定及阿里云 DNS 切换；独立浏览次数后台连接。
+**待完成：** 在 Pages 勾选 Enforce HTTPS，并复核 www 入口的证书与跳转；独立浏览次数后台连接。
 
-2026-10-29 首次部署已通过 GitHub Actions 全部检查。252 个公开网页和资源（含 84 个 HTML 页面）的 HTTP 下载与生成文件完全一致；线上搜索、论文筛选、项目链接、Gallery 和 390px 手机布局均已验证。此结果不代表已验证中国大陆各网络访问，也不代表自定义域名已切换。详见 `migration/TEST_RESULTS.json`。
+2026-10-29 首次部署已通过 GitHub Actions 全部检查。252 个公开网页和资源（含 84 个 HTML 页面）的 HTTP 下载与生成文件完全一致；线上搜索、论文筛选、项目链接、Gallery 和 390px 手机布局均已验证。随后已确认阿里云根域名 A 和 www CNAME 指向 GitHub Pages，且 `https://wentaochen.cn/` 返回正确首页。此结果不代表已验证中国大陆各网络访问。详见 `migration/TEST_RESULTS.json`。
 
 这是从 Sites 已发布 v27 整理的独立 GitHub Pages 源码。个人简介、论文、项目、报告、活动、奖项、任职、单位 logo、Gallery 及原有图片保留。原站继续运行，迁移目录不含原平台凭据或运行环境。
 
@@ -50,7 +50,7 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 node --test tests/counter.test.mjs tests/visits.test.mjs
 ```
 
-`SITE_URL` 环境变量可覆盖正式域名，用于 GitHub 默认地址或仓库子路径的测试。Actions 根据 Pages 实际地址自动设置它；正式自定义域名生效后会随 Pages 地址更新。生成的站点地图、robots 和 canonical 使用同一基址。
+正式域名在 `content/settings.json` 的 `site_url` 中维护，当前为 `https://wentaochen.cn`。Actions 默认使用这个内容设置生成站点地图、robots 和 canonical；不会因 Pages 暂未强制 HTTPS 而生成 HTTP 规范地址。特殊部署或 GitHub 默认地址/仓库子路径测试可用 `SITE_URL` 环境变量覆盖，Actions 中对应仓库变量 `SITE_URL`；日常更新无需设置它。
 
 ## 验证范围
 

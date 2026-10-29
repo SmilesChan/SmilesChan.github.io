@@ -44,13 +44,12 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
-      - name: Read Pages URL
+      - name: Configure GitHub Pages
         if: github.event_name != 'pull_request'
-        id: pages
         uses: actions/configure-pages@v5
       - name: Build all pages
         env:
-          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.base_url || 'https://wentaochen.cn' }}
+          SITE_URL: ${{ vars.SITE_URL }}
         run: python3 build.py
       - name: Check links, images and content
         run: python3 scripts/validate.py --report test-report.json

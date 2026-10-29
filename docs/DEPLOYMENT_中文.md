@@ -12,7 +12,7 @@
 
 工作流会生成全部网页，检查站内链接/图片/片段锚点，测试仅修改内容的更新流程，以及统计接口适配器。全部通过后才部署。若失败，在 Actions 查看具体错误，修正源内容后重新提交。
 
-默认使用 Pages 返回的实际地址生成 sitemap 和 canonical。仅有特殊需要时才设置仓库变量 `SITE_URL`；迁移期间不要提前把它固定成尚未切换的自定义域名。
+默认使用 `content/settings.json` 中的 HTTPS `site_url` 生成 sitemap 和 canonical，当前正式地址为 `https://wentaochen.cn`。测试其他发布地址时，可设置仓库变量 `SITE_URL` 临时覆盖；测试结束后清除覆盖，或改为正式 HTTPS 地址。Pages 的 Enforce HTTPS 开关单独控制请求跳转。
 
 ## 3. 在默认地址完成实测
 
