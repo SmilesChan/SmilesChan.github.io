@@ -290,7 +290,13 @@ pre { font-size: 15px; }
 /* Mobile: put the portrait above the centered profile and align the counter left. */
 @media (max-width: 760px) {
   .profile-panel { grid-template-columns: minmax(0, 1fr); text-align: center; }
-  .profile-panel .portrait-frame { grid-row: auto; justify-self: center; margin: 0 auto 16px; }
+  .profile-panel .portrait-frame {
+    grid-row: auto;
+    justify-self: center;
+    width: clamp(128px, 35vw, 150px);
+    height: clamp(128px, 35vw, 150px);
+    margin: 0 auto 16px;
+  }
   .profile-panel .social-links { text-align: left; }
   .profile-panel .social-links a { white-space: nowrap; }
   .site-footer { display: block; }
