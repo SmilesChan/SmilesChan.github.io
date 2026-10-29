@@ -84,7 +84,9 @@ def validate(directory):
         'scope':'local static artifact; external links, public GitHub deployment, DNS/HTTPS and mainland access require live checks',
         'html_pages':len(pages),'files':len(files),'local_references_checked':checked,
         'image_references':images,'external_links_not_fetched':len(external),
-        'content_records':dict(kinds),'gallery_photos':len(list((root/'assets/gallery').glob('photo-*.jpg'))),
+        'content_records':dict(kinds),
+        'gallery_photos':sum(1 for tag,attrs in pages[root/'index.html'].tags
+                             if tag=='img' and urlsplit(attrs.get('src','')).path.startswith('assets/gallery/')),
         'counter_status':'endpoint configured; live verification required' if settings['counter'].get('endpoint') else 'independent backend prepared; endpoint not connected',
         'errors':errors,
     }
