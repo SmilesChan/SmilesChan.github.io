@@ -1,0 +1,1979 @@
+{
+  "home_limits": {
+    "projects": 6,
+    "news": 6,
+    "awards": 8,
+    "appointment": 8
+  },
+  "profile": {
+    "name": "Wentao Chen",
+    "role": "Associate Professor",
+    "team": "Smart Materials Design Team",
+    "affiliations": [
+      {
+        "name": "Yangtze Delta Region Academy in Jiaxing",
+        "url": "https://jiaxing.bit.edu.cn/index.htm"
+      },
+      {
+        "name": "Beijing Institute of Technology",
+        "url": "https://english.bit.edu.cn/"
+      }
+    ],
+    "portrait": "/authors/admin/avatar_hu94cd38dfeee3bc8fc7c0e1879bbe6756_141978_270x270_fill_q75_lanczos_center.jpg",
+    "biography_html": "<p>I am an associate professor in the Smart Materials Design Team at the Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology, China. I have a particular focus on near-field heat transfer and thermal transport at the solid-liquid interface using molecular dynamics simulation.</p>\n",
+    "interests": [
+      "Molecular dynamics simulation",
+      "Near-field heat transfer",
+      "Phonon transport",
+      "Interfacial heat transfer",
+      "Intermolecular energy transfer",
+      "Solid-liquid interface"
+    ],
+    "education": [
+      {
+        "course": "PhD in Mechanical Engineering, 2022",
+        "institution": "Kyushu Institute of Technology\nJapan’s Peak Research Universities (J-PEAKS), Japan"
+      },
+      {
+        "course": "MEng in Mechanical Engineering and Automation, 2018",
+        "institution": "Northeastern University, China"
+      },
+      {
+        "course": "BEng in Electromechanical and Automation, 2015",
+        "institution": "Huazhong University of Science and Technology\nWuchang Branch, China"
+      }
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "url": "/#contact"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=9rlCmuIAAAAJ&hl=ja"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Wentao-Chen-11"
+      }
+    ],
+    "email": "wentao.chen@bit.edu.cn",
+    "contact_html": "<li>\n<i class=\"fa-li fas fa-envelope fa-2x\" aria-hidden=\"true\"></i>\n<span id=\"person-email\"><a href=\"mailto:wentao.chen@bit.edu.cn\">wentao.chen@bit.edu.cn</a></span>\n</li>\n<li>\n<i class=\"fa-li fas fa-map-marker fa-2x\" aria-hidden=\"true\"></i>\n<span id=\"person-address\">No. 1940, Dongfang North Road, Youchegang Town, Xiuzhou District, Jiaxing, Zhejiang, China, 314019</span>\n</li>\n<li>\n<i class=\"fa-li fas fa-compass fa-2x\" aria-hidden=\"true\"></i>\n<span>Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology</span>\n</li>\n",
+    "hero_title": "Micro & nanoscale thermal transport"
+  },
+  "home_lists": {
+    "projects": [
+      {
+        "path": "/project/nsfc-young-scientists-inse/",
+        "title": "Study on Mechanism of Quasi-Casimir Coupling Driven Extreme Near-Field Heat Transfer in Two-Dimensional Indium Selenide",
+        "summary": "National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C) (PI) 2027.01–2029.12",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/talented-young-scientist-program-2026/",
+        "title": "Talented Young Scientist Program 2026",
+        "summary": "Department of International Cooperation, Ministry of Science and Technology of the People's Republic of China (Project Implementer) 2026.11–2027.01",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/cep-international-internship-2026/",
+        "title": "2026 International Internship Program on Green Energy Materials and Thermal management of Devices",
+        "summary": "China International Talent Exchange Foundation, China Exchange Program for Young International (CEP) (Project Implementer) 2026.09–2026.10",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/bit-astar-joint-graduate-training-base/",
+        "title": "BIT–A*STAR Joint Graduate Training Base for Smart Materials Design and Development",
+        "summary": "Comprehensive Reform Project for Graduate Education and Training, Beijing Institute of Technology (Project Implementer) 2026.06–2027.12",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/nexus/",
+        "title": "Cooling for photovoltaic cell with self-cleaning coating",
+        "summary": "Japan Science and Technology Agency (JST), Networked Exchange, United Strength for Stronger Partnerships between Japan and ASEAN (NEXUS) (Core Participant) 2024.12–2025.12",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/さくらサイエンス2024/",
+        "title": "Enhancement of global engineering education in mechanical engineering field through PBL",
+        "summary": "Japan Science and Technology Agency (JST), Online Sakura Science 2024 (PI) 2024.10–2025.01",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/先鋭的テーマ発掘事業2024/",
+        "title": "Exploration of quasi-Casimir coupling induced phonon heat transfer mechanism by deep learning",
+        "summary": "Kyushu Institute of Technology Project for Discovery of Advanced Themes (PI) 2024.04–2025.03",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/grant-in-aid-for-research-activity-start-up/",
+        "title": "Thermal resonance induced by quasi-Casimir coupling for innovative nanoscale thermal management",
+        "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up (PI) 2022.08–2024.03",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/挑戦的研究萌芽/",
+        "title": "Innovative nanoscale thermal management by quasi-Casimir coupling induced phonon transport",
+        "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Challenging Research (Exploratory) (Core Participant) 2022.06–2025.03",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/基盤研究b-2022/",
+        "title": "Solid-liquid-vapor interfacial transport phenomena coupled with wetting/condensation/evaporation",
+        "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (B) (Core Participant) 2022.04–2025.03",
+        "authors": "",
+        "image": null
+      },
+      {
+        "path": "/project/基盤研究b/",
+        "title": "Solid-liquid-vapor interfacial resistance related multiphysis of tribology",
+        "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (B) (Participant) 2018.04–2021.03",
+        "authors": "",
+        "image": null
+      }
+    ],
+    "featured": [
+      {
+        "path": "/publication/weak-solidliquid-interaction-enhances-thermal-energy-transport-across-a-nanogap/",
+        "title": "Weak solid–liquid interaction enhances thermal energy transport across a nanogap",
+        "summary": "Applied Thermal Engineering, 302 (2026) 131901",
+        "authors": "Wentao Chen, Gyoko Nagayama",
+        "image": "/publication/weak-solidliquid-interaction-enhances-thermal-energy-transport-across-a-nanogap/featured_hu9d9b07bf4c4f6d9ff093d0ce7390860b_159159_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/publication/phonon-heat-transfer-across-an-sicsic-nanogap-under-an-external-uniform-electric-field/",
+        "title": "Phonon heat transfer across an SiC–SiC nanogap under an external uniform electric field",
+        "summary": "International Journal of Heat and Mass Transfer, 244 (2025) 126945",
+        "authors": "Xiangrui Li, Wentao Chen, Gyoko Nagayama",
+        "image": "/publication/phonon-heat-transfer-across-an-sicsic-nanogap-under-an-external-uniform-electric-field/featured_hu5a2100479e63266f20798ee5cb65cf13_6829293_150x0_resize_q75_h2_lanczos_3.webp"
+      },
+      {
+        "path": "/publication/kapitza-length-at-solidliquid-interface/",
+        "title": "Kapitza length at solid–liquid interface: from nanoscale to microscale",
+        "summary": "Small Science, (2025) 2400626",
+        "authors": "Wentao Chen, Gyoko Nagayama",
+        "image": "/publication/kapitza-length-at-solidliquid-interface/featured_hu7ca894204aac6a3073110155a365c2bf_579583_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/publication/excessive-local-heat-flux-at-resonant-interfacial-layers/",
+        "title": "Excessive local heat flux at resonant interfacial layers",
+        "summary": "International Journal of Heat and Mass Transfer, 235 (2024) 126228",
+        "authors": "Wentao Chen, Gyoko Nagayama",
+        "image": "/publication/excessive-local-heat-flux-at-resonant-interfacial-layers/featured_hu2a24fe1ef67613e2a7642e2196651508_571589_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/publication/interfacial-thermal-resonance-in-an-sicsic-nanogap-with-various-atomic-surface-terminations/",
+        "title": "Interfacial thermal resonance in an SiC–SiC nanogap with various atomic surface terminations",
+        "summary": "Nanoscale, 24 (2023) 8603-8610",
+        "authors": "Xiangrui Li, Wentao Chen, Gyoko Nagayama",
+        "image": "/publication/interfacial-thermal-resonance-in-an-sicsic-nanogap-with-various-atomic-surface-terminations/featured_hu702299a67384c7eb1aa93a91135ae257_347389_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/publication/quasi-casimir-coupling-can-induce-thermal-resonance-of-adsorbed-liquid-layers-in-a-nanogap/",
+        "title": "Quasi-Casimir coupling can induce thermal resonance of adsorbed liquid layers in a nanogap",
+        "summary": "Physical Chemistry Chemical Physics, 24 (2022) 11758-11769",
+        "authors": "Wentao Chen, Gyoko Nagayama",
+        "image": "/publication/quasi-casimir-coupling-can-induce-thermal-resonance-of-adsorbed-liquid-layers-in-a-nanogap/featured_hu7c577a576b192b07ac6af10a0228bab1_383985_150x0_resize_q75_h2_lanczos.webp"
+      }
+    ],
+    "talks": [
+      {
+        "path": "/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/",
+        "title": "Molecular Dynamics Study on Nano/Microscale Thermal Energy Transport",
+        "summary": "Research Talk at School of Engineering, Monash University Malaysia",
+        "authors": "Sep 2, 2026 Monash University MalaysiaWentao Chen",
+        "image": "/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/featured_hu83f730f2462f04e83b0d765052e565cb_243339_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/talk/enhanced-thermal-transport-at-graphene-oxidewater-interface-by-uniform-electric-field/",
+        "title": "Enhanced thermal transport at graphene oxide–water interface by uniform electric field",
+        "summary": "The 5th Edition of the NanoSeries Conference on Global Nanotechnology (NanoSeries 2026)",
+        "authors": "Jun 15, 2026 — Jun 17, 2026 Polytechnic University of TurinWentao Chen",
+        "image": "/talk/enhanced-thermal-transport-at-graphene-oxidewater-interface-by-uniform-electric-field/featured_huad24fe0e4f9b8e0879863c1fa4d301c4_6819075_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/talk/elucidating-phonon-heat-transfer-and-interfacial-thermal-resistance-at-micro-nanoscale/",
+        "title": "Elucidating phonon heat transfer and interfacial thermal resistance at micro-nanoscale",
+        "summary": "The 16th International Conference of the Chinese Society of Micro-Nano Technology, Invited talk, Symposium Secretary, Session Chair",
+        "authors": "Nov 21, 2025 — Nov 24, 2025 Changsha International Conference CenterWentao Chen",
+        "image": "/talk/elucidating-phonon-heat-transfer-and-interfacial-thermal-resistance-at-micro-nanoscale/featured_huad24fe0e4f9b8e0879863c1fa4d301c4_6246867_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/talk/phonon-heat-transfer-across-a-nanogap-under-an-external-electric-field/",
+        "title": "Phonon heat transfer across a nanogap under an external electric field",
+        "summary": "The 3rd World Materials Conference, Invited Talk, Symposium Secretary, Session Chair",
+        "authors": "Oct 14, 2025 — Oct 17, 2025 Guilin International Conference Exhibition CenterWentao Chen, Xiangrui Li, Gang Zhang",
+        "image": "/talk/phonon-heat-transfer-across-a-nanogap-under-an-external-electric-field/featured_hu6efd35437298ebb67c69b9d519758b76_169065_150x0_resize_q75_h2_lanczos_3.webp"
+      },
+      {
+        "path": "/talk/enhanced-thermal-energy-transport-across-a-nanogap-under-weak-solid-liquid-interaction/",
+        "title": "Enhanced thermal energy transport across a nanogap under weak solid-liquid interaction",
+        "summary": "The 35th International Symposium on Transport Phenomena",
+        "authors": "Sep 21, 2025 — Sep 25, 2025 The Westin Josun BusanWentao Chen, Gyoko Nagayama",
+        "image": "/talk/enhanced-thermal-energy-transport-across-a-nanogap-under-weak-solid-liquid-interaction/featured_hua75aadaa9460720a1c04e15357f66e14_273192_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/",
+        "title": "Unraveling regimes of solid–liquid interfacial heat transfer from nanoscale to microscale",
+        "summary": "HTSJ International Heat Transfer Symposium 2025",
+        "authors": "May 14, 2025 — May 17, 2025 Okinawa Convention CenterWentao Chen, Gyoko Nagayama",
+        "image": "/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/featured_hu012b6d68d1395c479c688fb0b3f51ba0_1074006_150x0_resize_q75_h2_lanczos.webp"
+      }
+    ],
+    "news": [
+      {
+        "path": "/activities/cep-kick-off/",
+        "title": "China International Talent Exchange Foundation CEP Program Kick-off Meeting",
+        "summary": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology",
+        "authors": "Last updated on Sep 18, 2026",
+        "image": "/activities/cep-kick-off/featured_hua76ad9e7b05619f462689f5466a71599_800592_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/activities/monash/",
+        "title": "Visited to Monash University Malaysia",
+        "summary": "Micro/Nanoscale Heat Transfer Lab",
+        "authors": "Last updated on Sep 11, 2026",
+        "image": "/activities/monash/featured_huad24fe0e4f9b8e0879863c1fa4d301c4_6996526_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/activities/torino/",
+        "title": "Visited to Polytechnic University of Turin",
+        "summary": "Multi-Scale Modeling Lab",
+        "authors": "Last updated on Jun 21, 2026",
+        "image": "/activities/torino/featured_hufa44a3cdfd40976cd598948b74b4c913_4499027_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/activities/csmnt2026/",
+        "title": "Establishment Meeting of Micro-Nano System Thermal Management Branch, Chinese Society of Micro-Nano Technology",
+        "summary": "School of Integrated Circuits, Tsinghua University",
+        "authors": "Last updated on Feb 7, 2026",
+        "image": "/activities/csmnt2026/featured_hu14a52768fee4d4ccdae1fb76116d9255_590287_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/activities/ulsan/",
+        "title": "Visited to University of Ulsan",
+        "summary": "Micro- and Nano-scale Thermal Fluid Lab",
+        "authors": "Last updated on Dec 13, 2025",
+        "image": "/activities/ulsan/featured_huf177eeed744fd65df230ae2f78f3c84f_3426004_150x0_resize_q75_h2_lanczos.webp"
+      },
+      {
+        "path": "/activities/chongqing/",
+        "title": "International Forum for Excellent Young Scholars",
+        "summary": "School of Energy and Power Engineering, Chongqing University",
+        "authors": "Last updated on Jul 15, 2025",
+        "image": "/activities/chongqing/featured_huc398c7d99f5da21c92b8862318efd98d_3510911_720x2500_fit_q75_h2_lanczos.webp"
+      }
+    ]
+  },
+  "records": [
+    {
+      "path": "/activities/cep-kick-off/",
+      "kind": "activities",
+      "title": "China International Talent Exchange Foundation CEP Program Kick-off Meeting",
+      "summary": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology",
+      "authors": [],
+      "date": "2026-09-08T14:00:00Z",
+      "metadata": "Last updated on Sep 18, 2026",
+      "fields": {},
+      "image": "/activities/cep-kick-off/featured_hua76ad9e7b05619f462689f5466a71599_800592_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "The China International Talent Exchange Foundation CEP Program was officially launched. The kick-off meeting for the “2026 Green Energy Materials and Devices Thermal Management International Internship Program” was held at Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology, with participants including institute leaders, researchers, and internship students from Universiti Malaya (QS 56). The program aims to deepen international scientific cooperation, strengthen youth talent cultivation, and promote exchanges between BIT and Universiti Malaya in research collaboration, joint postgraduate training, and youth talent exchange, with a focus on green energy, advanced materials, and sustainable development, while supporting China-ASEAN cooperation and the Belt and Road Initiative.\nLink: https://mp.weixin.qq.com/s/8NrXH3dfAHOye1CfLSEAng\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Sep 8, 2026",
+        "event": "China International Talent Exchange Foundation CEP Program Kick-off Meeting",
+        "url": "https://mp.weixin.qq.com/s/8NrXH3dfAHOye1CfLSEAng",
+        "location": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology"
+      }
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/",
+      "kind": "talk",
+      "title": "Molecular Dynamics Study on Nano/Microscale Thermal Energy Transport",
+      "summary": "Research Talk at School of Engineering, Monash University Malaysia",
+      "authors": [
+        "Wentao Chen"
+      ],
+      "date": "2026-09-02T10:30:00Z",
+      "metadata": "Wentao Chen",
+      "fields": {
+        "Date": "Sep 2, 2026",
+        "Event": "Research Talk at School of Engineering, Monash University Malaysia",
+        "Location": "Monash University Malaysia"
+      },
+      "image": "/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/featured_hu83f730f2462f04e83b0d765052e565cb_243339_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/monash/",
+      "kind": "activities",
+      "title": "Visited to Monash University Malaysia",
+      "summary": "Micro/Nanoscale Heat Transfer Lab",
+      "authors": [],
+      "date": "2026-09-02T00:00:00Z",
+      "metadata": "Last updated on Sep 11, 2026",
+      "fields": {},
+      "image": "/activities/monash/featured_huad24fe0e4f9b8e0879863c1fa4d301c4_6996526_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "In September 2026, I visited the Micro/Nanoscale Heat Transfer Laboratory at Monash University Malaysia for academic exchange. During the visit, I delivered a seminar on “Molecular Dynamics Study on Nano/Microscale Thermal Energy Transport” and shared our recent work on thermal transport across nanoscale systems and interfaces. The discussion with faculty members and researchers covered molecular dynamics simulations, interfacial heat transfer, and related micro/nanoscale thermal management topics. This visit also provided a good opportunity to explore common research interests and possible directions for future collaboration between our teams.\nLink: https://www.monash.edu.my/engineering/all-disciplines/mechanical-engineering/our-research_3/thermofluidics/micronanoscale-heat-transfer-research-team\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Sep 2, 2026",
+        "event": "Visited to Monash University Malaysia",
+        "url": "https://www.monash.edu.my/engineering/all-disciplines/mechanical-engineering/our-research_3/thermofluidics/micronanoscale-heat-transfer-research-team",
+        "location": "Micro/Nanoscale Heat Transfer Lab, Monash University Malaysia"
+      }
+    },
+    {
+      "path": "/talk/enhanced-thermal-transport-at-graphene-oxidewater-interface-by-uniform-electric-field/",
+      "kind": "talk",
+      "title": "Enhanced thermal transport at graphene oxide–water interface by uniform electric field",
+      "summary": "The 5th Edition of the NanoSeries Conference on Global Nanotechnology (NanoSeries 2026)",
+      "authors": [
+        "Wentao Chen"
+      ],
+      "date": "2026-06-15T08:30:00Z",
+      "metadata": "Wentao Chen",
+      "fields": {
+        "Date": "Jun 15, 2026 — Jun 17, 2026",
+        "Event": "The 5th Edition of the NanoSeries Conference on Global Nanotechnology",
+        "Location": "Polytechnic University of Turin"
+      },
+      "image": "/talk/enhanced-thermal-transport-at-graphene-oxidewater-interface-by-uniform-electric-field/featured_huad24fe0e4f9b8e0879863c1fa4d301c4_6819075_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/torino/",
+      "kind": "activities",
+      "title": "Visited to Polytechnic University of Turin",
+      "summary": "Multi-Scale Modeling Lab",
+      "authors": [],
+      "date": "2026-06-15T00:00:00Z",
+      "metadata": "Last updated on Jun 21, 2026",
+      "fields": {},
+      "image": "/activities/torino/featured_hufa44a3cdfd40976cd598948b74b4c913_4499027_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "In June 2026, I had the pleasure of visiting the Multi-Scale Modeling Laboratory at Polytechnic University of Turin, Italy. During the visit, I had valuable academic discussions with Prof. Eliodoro Chiavazzo and Prof. Matteo Fasano on multiscale modeling, micro/nanoscale heat transfer, and interfacial thermal transport. The visit provided an excellent opportunity to learn about the recent research activities of the SMaLL Lab and to exchange ideas on potential future collaborations. It was an inspiring and rewarding academic exchange, and I look forward to further communication and collaboration in the future.\nLink: https://small.polito.it/index.html\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Jun 15, 2026",
+        "event": "Visited to Polytechnic University of Turin",
+        "url": "https://small.polito.it/",
+        "location": "Multi-Scale Modeling Lab, Polytechnic University of Turin"
+      }
+    },
+    {
+      "path": "/publication/weak-solidliquid-interaction-enhances-thermal-energy-transport-across-a-nanogap/",
+      "kind": "publication",
+      "title": "Weak solid–liquid interaction enhances thermal energy transport across a nanogap",
+      "summary": "Applied Thermal Engineering, 302 (2026) 131901",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2026-06-12T00:00:00Z",
+      "metadata": "Wentao Chen, Gyoko NagayamaJune, 2026",
+      "fields": {
+        "Type": "Journal article",
+        "Publication": "Applied Thermal Engineering"
+      },
+      "image": "/publication/weak-solidliquid-interaction-enhances-thermal-energy-transport-across-a-nanogap/featured_hu9d9b07bf4c4f6d9ff093d0ce7390860b_159159_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/407011042_Weak_solid-liquid_interaction_enhances_thermal_energy_transport_across_a_nanogap"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.applthermaleng.2026.131901"
+        }
+      ],
+      "search_text": "",
+      "featured": true
+    },
+    {
+      "path": "/activities/csmnt2026/",
+      "kind": "activities",
+      "title": "Establishment Meeting of Micro-Nano System Thermal Management Branch, Chinese Society of Micro-Nano Technology",
+      "summary": "School of Integrated Circuits, Tsinghua University",
+      "authors": [],
+      "date": "2026-01-31T00:00:00Z",
+      "metadata": "Last updated on Feb 7, 2026",
+      "fields": {},
+      "image": "/activities/csmnt2026/featured_hu14a52768fee4d4ccdae1fb76116d9255_590287_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "On January 31, 2026, the establishment meeting of Micro-Nano System Thermal Management Branch of the Chinese Society of Micro-Nano Technology, along with the first session of its inaugural committee, was successfully convened at Tsinghua University in Beijing. Over fifty leading scholars and representatives in micro-nano thermal management from universities and research institutions across the nation gathered to witness this significant milestone. The establishment of this branch signifies Chinese creation of a dedicated academic community and collaborative innovation platform in the critical frontier field of micro-nano system thermal management.\nLink: https://mp.weixin.qq.com/s/YruAn4xHneq7tX5pl2svMw?click_id=10\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Jan 31, 2026",
+        "event": "Establishment Meeting of Micro-Nano System Thermal Management Branch, Chinese Society of Micro-Nano Technology",
+        "url": "https://mp.weixin.qq.com/s/YruAn4xHneq7tX5pl2svMw?click_id=10",
+        "location": "School of Integrated Circuits, Tsinghua University, Beijing"
+      }
+    },
+    {
+      "path": "/talk/elucidating-phonon-heat-transfer-and-interfacial-thermal-resistance-at-micro-nanoscale/",
+      "kind": "talk",
+      "title": "Elucidating phonon heat transfer and interfacial thermal resistance at micro-nanoscale",
+      "summary": "The 16th International Conference of the Chinese Society of Micro-Nano Technology, Invited talk, Symposium Secretary, Session Chair",
+      "authors": [
+        "Wentao Chen"
+      ],
+      "date": "2025-11-21T08:30:00Z",
+      "metadata": "Wentao Chen",
+      "fields": {
+        "Date": "Nov 21, 2025 — Nov 24, 2025",
+        "Event": "The 16th International Conference of the Chinese Society of Micro-Nano Technology",
+        "Location": "Changsha International Conference Center"
+      },
+      "image": "/talk/elucidating-phonon-heat-transfer-and-interfacial-thermal-resistance-at-micro-nanoscale/featured_huad24fe0e4f9b8e0879863c1fa4d301c4_6246867_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/phonon-heat-transfer-across-a-nanogap-under-an-external-electric-field/",
+      "kind": "talk",
+      "title": "Phonon heat transfer across a nanogap under an external electric field",
+      "summary": "The 3rd World Materials Conference, Invited Talk, Symposium Secretary, Session Chair",
+      "authors": [
+        "Wentao Chen",
+        "Xiangrui Li",
+        "Gang Zhang"
+      ],
+      "date": "2025-10-14T08:30:00Z",
+      "metadata": "Wentao Chen, Xiangrui Li, Gang Zhang",
+      "fields": {
+        "Date": "Oct 14, 2025 — Oct 17, 2025",
+        "Event": "The 3rd World Materials Conference",
+        "Location": "Guilin International Conference Exhibition Center"
+      },
+      "image": "/talk/phonon-heat-transfer-across-a-nanogap-under-an-external-electric-field/featured_hu6efd35437298ebb67c69b9d519758b76_169065_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/ulsan/",
+      "kind": "activities",
+      "title": "Visited to University of Ulsan",
+      "summary": "Micro- and Nano-scale Thermal Fluid Lab",
+      "authors": [],
+      "date": "2025-09-24T00:00:00Z",
+      "metadata": "Last updated on Dec 13, 2025",
+      "fields": {},
+      "image": "/activities/ulsan/featured_huf177eeed744fd65df230ae2f78f3c84f_3426004_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "In September 2025, I had the pleasure of visiting Prof. BoHung Kim’s group at the University of Ulsan, South Korea. Prof. Kim kindly delivered a seminar introducing his group’s recent research progress, followed by a tour of the laboratory and the Ulsan campus. The visit also provided valuable opportunities for open and friendly discussions with Korean students and international graduate students. It was an inspiring and rewarding academic exchange, and I look forward to potential future collaborations.\nLink: https://sites.google.com/site/bohungkim/home\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Sep 24, 2025",
+        "event": "Visited to University of Ulsan",
+        "url": "https://sites.google.com/site/bohungkim/home",
+        "location": "Micro- and Nano-scale Thermal Fluid Lab, University of Ulsan, South Korea"
+      }
+    },
+    {
+      "path": "/talk/enhanced-thermal-energy-transport-across-a-nanogap-under-weak-solid-liquid-interaction/",
+      "kind": "talk",
+      "title": "Enhanced thermal energy transport across a nanogap under weak solid-liquid interaction",
+      "summary": "The 35th International Symposium on Transport Phenomena",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2025-09-21T09:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Sep 21, 2025 — Sep 25, 2025",
+        "Event": "The 35th International Symposium on Transport Phenomena",
+        "Location": "The Westin Josun Busan"
+      },
+      "image": "/talk/enhanced-thermal-energy-transport-across-a-nanogap-under-weak-solid-liquid-interaction/featured_hua75aadaa9460720a1c04e15357f66e14_273192_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/chongqing/",
+      "kind": "activities",
+      "title": "International Forum for Excellent Young Scholars",
+      "summary": "School of Energy and Power Engineering, Chongqing University",
+      "authors": [],
+      "date": "2025-06-17T00:00:00Z",
+      "metadata": "Last updated on Jul 15, 2025",
+      "fields": {},
+      "image": "/activities/chongqing/featured_huc398c7d99f5da21c92b8862318efd98d_3510911_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "I was honored to be invited to the International Forum for Excellent Young Scholars at Chongqing University on June, 2025. It was a fantastic opportunity to present my research to professors and other talented researchers. I was also deeply impressed by the campus tour and the insightful visit to the Chongqing Planning Exhibition Gallery. My sincere thanks to the organizers for such a well-organized and inspiring event.\nLink: https://cte.cqu.edu.cn/info/1393/8994.htm\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Jun 17, 2025",
+        "event": "International Forum for Excellent Young Scholars",
+        "url": "https://cte.cqu.edu.cn/info/1393/8994.htm",
+        "location": "School of Energy and Power Engineering, Chongqing University"
+      }
+    },
+    {
+      "path": "/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/",
+      "kind": "talk",
+      "title": "Unraveling regimes of solid–liquid interfacial heat transfer from nanoscale to microscale",
+      "summary": "HTSJ International Heat Transfer Symposium 2025",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2025-05-14T09:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "May 14, 2025 — May 17, 2025",
+        "Event": "HTSJ International Heat Transfer Symposium 2025",
+        "Location": "Okinawa Convention Center"
+      },
+      "image": "/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/featured_hu012b6d68d1395c479c688fb0b3f51ba0_1074006_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/umpedac-visiting/",
+      "kind": "activities",
+      "title": "JST NEXUS Exchange Program",
+      "summary": "UM Power Energy Dedicated Advanced Centre",
+      "authors": [],
+      "date": "2025-03-13T00:00:00Z",
+      "metadata": "Last updated on Mar 27, 2025",
+      "fields": {},
+      "image": "/activities/umpedac-visiting/featured_hub7c35ec271758952d45358e5576e864f_5956001_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "📢We are excited to share highlights from our recent visit to UMPEDAC Universiti Malaya! From March 8th to 13th, our Kyutech Heat Transfer Lab group had the incredible opportunity to collaborate and exchange knowledge, all thanks to the support of the JST NEXUS project.🌸\nDuring our visit, we engaged in sharing our latest findings and exploring cutting-edge advancements in heat transfer, experiencing the impressive facilities and vibrant academic environment at UMPEDAC, and brainstorming and planning future research collaborations, fostering strong ties between our institutions.\nWe’re immensely grateful to UMPEDAC for their warm hospitality and for facilitating such a productive exchange. This collaboration is a significant step towards advancing our research and strengthening international partnerships.\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Mar 8, 2025 — Mar 13, 2025",
+        "event": "JST NEXUS Exchange Program",
+        "url": "https://umpedac.um.edu.my/",
+        "location": "UM Power Energy Dedicated Advanced Centre (UMPEDAC), Universiti Malaya"
+      }
+    },
+    {
+      "path": "/publication/phonon-heat-transfer-across-an-sicsic-nanogap-under-an-external-uniform-electric-field/",
+      "kind": "publication",
+      "title": "Phonon heat transfer across an SiC–SiC nanogap under an external uniform electric field",
+      "summary": "International Journal of Heat and Mass Transfer, 244 (2025) 126945",
+      "authors": [
+        "Xiangrui Li",
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2025-03-11T00:00:00Z",
+      "metadata": "Xiangrui Li, Wentao Chen, Gyoko NagayamaMarch, 2025",
+      "fields": {
+        "Type": "Journal article",
+        "Publication": "International Journal of Heat and Mass Transfer"
+      },
+      "image": "/publication/phonon-heat-transfer-across-an-sicsic-nanogap-under-an-external-uniform-electric-field/featured_hu5a2100479e63266f20798ee5cb65cf13_6829293_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/389888735_Phonon_heat_transfer_across_an_SiC-SiC_nanogap_under_an_external_uniform_electric_field"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2025.126945"
+        }
+      ],
+      "search_text": "",
+      "featured": true
+    },
+    {
+      "path": "/publication/kapitza-length-at-solidliquid-interface/",
+      "kind": "publication",
+      "title": "Kapitza length at solid–liquid interface: from nanoscale to microscale",
+      "summary": "Small Science, (2025) 2400626",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2025-03-08T00:00:00Z",
+      "metadata": "Wentao Chen, Gyoko NagayamaMarch, 2025",
+      "fields": {
+        "Type": "Journal article",
+        "Publication": "Small Science"
+      },
+      "image": "/publication/kapitza-length-at-solidliquid-interface/featured_hu7ca894204aac6a3073110155a365c2bf_579583_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/389677518_Kapitza_Length_at_Solid-Liquid_Interface_From_Nanoscale_to_Microscale"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1002/smsc.202400626"
+        }
+      ],
+      "search_text": "",
+      "featured": true
+    },
+    {
+      "path": "/activities/sakura-202410/",
+      "kind": "activities",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "summary": "Online Sakura Science 2024",
+      "authors": [],
+      "date": "2025-02-07T00:00:00Z",
+      "metadata": "Last updated on Feb 7, 2025",
+      "fields": {},
+      "image": "/activities/sakura-202410/featured_hueac14e0e31f81ccb03c466cd8a16cc93_1051078_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "From October 2024 to January 2025, Kyutech organized an online international exchange program titled “Global Engineering Education in Mechanical Engineering Field through Online Project Based Learning.” This initiative was part of the Sakura Science Plan, supported by Japan Science and Technology Agency (JST).\nThe program attracted 47 participants, comprising 36 students and 11 faculty members from institutions including Qingdao University of Technology, Northeastern University (CN), Shandong University, University of Malaya, National Taiwan University of Science and Technology, Yanshan University, Qilu University of Technology, Indian Institute of Technology, Guwahati, and University of Southern California.\nInternational Joint Seminar on Mechanical Engineering 2024 was held to promote academic exchange in mechanical engineering field. The participants enjoyed 6 keynote lectures and 42 oral presentations through Zoom. Online events such as campus/laboratory tours, and collaborative works have been conducted by 36 foreign students together with 21 Japanese students. All participants worked diligently with their teams to complete the projects “Spin” and “Magnetic” successfully. This online event fostered international cooperation and strengthened friendships among all involved.\nThis program was supported by JST.\nLink: https://www.kyutech.ac.jp/english/en-news/topics/entry-11151.html\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Oct 2024 — Jan 2025",
+        "event": "Online Sakura Science 2024",
+        "url": "https://www.kyutech.ac.jp/english/en-news/topics/entry-11151.html",
+        "location": "Online (hosted by Kyushu Institute of Technology)"
+      }
+    },
+    {
+      "path": "/project/nsfc-young-scientists-inse/",
+      "kind": "project",
+      "title": "Study on Mechanism of Quasi-Casimir Coupling Driven Extreme Near-Field Heat Transfer in Two-Dimensional Indium Selenide",
+      "summary": "National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C) (PI) 2027.01–2029.12",
+      "authors": [],
+      "date": "2027-01-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "Extreme near-field heat transfer is a key fundamental issue in the thermal management of two-dimensional semiconductor devices and is of considerable importance for understanding nonconventional thermal transport in low-dimensional systems. Within nanogaps, in addition to near-field radiation, quasi-Casimir coupling arising from intermolecular interactions can induce heat transfer across the nanogaps and interfacial thermal resonance in bulk materials. However, the underlying mechanisms governing gap-dependent thermal transport in two-dimensional van der Waals materials has not yet been systematically clarified.\n\nThis project focuses on indium selenide (InSe) nanofilms, a representative two-dimensional polar material featuring high carrier mobility and strong polarization characteristics. Using first-principles data-driven machine-learning potentials in combination with nonequilibrium molecular dynamics simulations, the project aims to elucidate the mechanisms of extreme near-field heat transfer in InSe nanofilms.\n\nBy constructing controllable nanogap models and employing local heat flux decomposition, the respective contributions of long-range and short-range interactions to heat flux will be quantitatively resolved and regime classification criterion will be established. By further tuning atomic termination configurations, the project will reveal how variations in interfacial coupling strength regulate thermal transport channels, thereby developing structure-based design principles for passive thermal management.\n\nIn addition, external electric fields will be introduced to clarify the nonlinear dependence of interfacial thermal conductance on the strength and direction of electric field, enabling active thermal management.\n\nThis project will establish a mechanistic framework for quasi-Casimir coupling driven heat transfer across nanogaps in two-dimensional van der Waals materials, thereby providing a solid theoretical foundation for the industrial application of thermal management in high power density chips.\nFund: National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C)\n",
+      "featured": false,
+      "fund_details": {
+        "name": "National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C)",
+        "url": "https://www.nsfc.gov.cn/"
+      }
+    },
+    {
+      "path": "/project/talented-young-scientist-program-2026/",
+      "kind": "project",
+      "title": "Talented Young Scientist Program 2026",
+      "summary": "Department of International Cooperation, Ministry of Science and Technology of the People's Republic of China (Project Implementer) 2026.11–2027.01",
+      "authors": [],
+      "date": "2026-11-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "Upholding the vision of a community with a shared future for mankind, the Program advocates and practices the Global Development Initiative, the Global Security Initiative, and the Global Civilization Initiative, and promotes the building of an Innovation Silk Road under the Belt and Road Initiative. Following the principles of selecting the best candidates, people-centeredness, openness and inclusiveness, and equality with mutual learning, the Program provides funding support for eligible outstanding young international scientists, scholars, and researchers (hereinafter referred to as “Talented Young Scientist”) to come to China for work and exchange. The Program aims to enhance the scientific research capacity and innovation capacity of partner countries, promote science/technology and humanities exchanges between China and countries around the world, provide a high-quality platform for young scientists to learn from each other, build long-term and stable S&T cooperative partnerships with relevant countries, and pool consensus and strength to foster people-to-people connectivity.\nFund: Talented Young Scientist Program 2026\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Talented Young Scientist Program 2026",
+        "url": "https://tysp.cstec.org.cn/"
+      }
+    },
+    {
+      "path": "/project/cep-international-internship-2026/",
+      "kind": "project",
+      "title": "2026 International Internship Program on Green Energy Materials and Thermal management of Devices",
+      "summary": "China International Talent Exchange Foundation, China Exchange Program for Young International (CEP) (Project Implementer) 2026.09–2026.10",
+      "authors": [],
+      "date": "2026-09-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "To promote exchange and mutual learning among international young talents, the China International Talent Exchange Foundation established the China Exchange Program for Young International (CEP Program) in 2024. In accordance with the work plan, the application process for the 2026 CEP Program is now officially launched. The CEP Program follows an open and inclusive approach. It encourages mutual learning and shared growth, and selects applicants based on merit and practical outcomes. It supports outstanding young foreign talents to come to China for exchange visits, international internships, and short-term work, so as to help them better understand China and to promote mutual understanding and friendship.\nFund: China International Talent Exchange Foundation, China Exchange Program for Young International (CEP)\n",
+      "featured": false,
+      "fund_details": {
+        "name": "China International Talent Exchange Foundation, China Exchange Program for Young International (CEP)",
+        "url": "https://www.citef.org.cn/CITEF/LEAP/citef/html/index.html"
+      }
+    },
+    {
+      "path": "/project/bit-astar-joint-graduate-training-base/",
+      "kind": "project",
+      "title": "BIT–A*STAR Joint Graduate Training Base for Smart Materials Design and Development",
+      "summary": "Comprehensive Reform Project for Graduate Education and Training, Beijing Institute of Technology (Project Implementer) 2026.06–2027.12",
+      "authors": [],
+      "date": "2026-06-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "The joint graduate training base focuses on AI-enabled materials design and advanced thermal management, addressing strategic needs in advanced materials, artificial intelligence, advanced manufacturing, and carbon neutrality. It establishes a joint training framework that integrates values-oriented education, coordinated dual-supervisor mentoring, project-based research to tackle key challenges, international practical training, and management throughout the training process. By engaging graduate students in real-world research projects and international collaboration, the base aims to enhance their capacity for innovation, practical skills, and global competence.\nFund: Comprehensive Reform Project for Graduate Education and Training, Beijing Institute of Technology\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Comprehensive Reform Project for Graduate Education and Training, Beijing Institute of Technology",
+        "url": "https://grd.bit.edu.cn/pygz/pyxx/7fc34aae3eed4111a70580d60c235edc.htm"
+      }
+    },
+    {
+      "path": "/project/nexus/",
+      "kind": "project",
+      "title": "Cooling for photovoltaic cell with self-cleaning coating",
+      "summary": "Japan Science and Technology Agency (JST), Networked Exchange, United Strength for Stronger Partnerships between Japan and ASEAN (NEXUS) (Core Participant) 2024.12–2025.12",
+      "authors": [],
+      "date": "2024-12-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "This collaborative program aims to enhance global partnerships. It focuses on merging self-cleaning coating technology for solar panels, an area of expertise for partner organizations, with cooling technology, a specialty of the Japanese team. Progress will be monitored through online meeting, while hands-on experiments will be conducted using cutting-edge equipment during in-person exchanges. Visiting researchers will receive training on advanced measurement tools, and those sent abroad will engage in interdisciplinary research projects. This initiative promotes bilateral exchange of emerging talent and fosters stronger ties between institutions.\nFund: Networked Exchange, United Strength for Stronger Partnerships between Japan and ASEAN (NEXUS)\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Networked Exchange, United Strength for Stronger Partnerships between Japan and ASEAN (NEXUS)",
+        "url": "https://www.jst.go.jp/aspire/nexus/y-tec/theme/2024/vol043.html"
+      }
+    },
+    {
+      "path": "/talk/interfacial-resonance-induced-thermal-energy-transport-across-a-nanogap/",
+      "kind": "talk",
+      "title": "Interfacial resonance induced thermal energy transport across a nanogap",
+      "summary": "Kyushu Heat Transfer Seminar 2024, Invited talk",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2024-11-16T10:15:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Nov 16, 2024",
+        "Event": "Kyushu Heat Transfer Seminar 2024, The Heat Transfer Society of Japan",
+        "Location": "Yufutopia"
+      },
+      "image": "/talk/interfacial-resonance-induced-thermal-energy-transport-across-a-nanogap/featured_hu94e1e0db61a87f151847a6558deb5e13_2917511_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/saes2024/",
+      "kind": "activities",
+      "title": "Served as session chairman at SAES2024",
+      "summary": "12th International Symposium on Applied Engineering and Sciences",
+      "authors": [],
+      "date": "2024-11-14T00:00:00Z",
+      "metadata": "Last updated on Nov 24, 2024",
+      "fields": {},
+      "image": "/activities/saes2024/featured_hub4a1d37a1c2d0c9e574a97c2b088069e_652010_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "Thrilled to share that I had the honor of chairing a session on Engineering &amp; Technology at the 12th International Symposium on Applied Engineering and Sciences (SAES2024), held at the Faculty of Engineering, Kyushu Institute of Technology!\nSAES2024 is an international forum for presentations and interactions in the current and emerging areas of Applied Engineering and Sciences. It also provides a unique platform for researchers, students, scientist and engineers to share their experiences and views of their latest research breakthrough.\nGrateful for the opportunity to be part of such an inspiring event and to witness the exciting research shaping the future of technology. Looking forward to seeing how these discussions will continue to drive innovation and collaboration in the years to come!\nLink: https://conferenceservice.jp/www/saes2024/\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Nov 14, 2024",
+        "event": "12th International Symposium on Applied Engineering and Sciences (SAES2024)",
+        "url": "https://conferenceservice.jp/www/saes2024/",
+        "location": "Faculty of Engineering, Kyushu Institute of Technology"
+      }
+    },
+    {
+      "path": "/talk/a-molecular-dynamics-study-of-local-heat-transfer-at-resonant-layers-of-solidliquid-interface/",
+      "kind": "talk",
+      "title": "A molecular dynamics study of local heat transfer at resonant layers of solid–liquid interface",
+      "summary": "Thermal Engineering Conference 2024",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2024-10-06T14:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Oct 6, 2024",
+        "Event": "Thermal Engineering Conference 2024",
+        "Location": "KDDI Ishin Hall"
+      },
+      "image": "/talk/a-molecular-dynamics-study-of-local-heat-transfer-at-resonant-layers-of-solidliquid-interface/featured_hue70167b8aaf56e0966ff3e25d321b857_629353_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/publication/excessive-local-heat-flux-at-resonant-interfacial-layers/",
+      "kind": "publication",
+      "title": "Excessive local heat flux at resonant interfacial layers",
+      "summary": "International Journal of Heat and Mass Transfer, 235 (2024) 126228",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2024-09-19T00:00:00Z",
+      "metadata": "Wentao Chen, Gyoko NagayamaSeptember, 2024",
+      "fields": {
+        "Type": "Journal article",
+        "Publication": "International Journal of Heat and Mass Transfer"
+      },
+      "image": "/publication/excessive-local-heat-flux-at-resonant-interfacial-layers/featured_hu2a24fe1ef67613e2a7642e2196651508_571589_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/384154249_Excessive_local_heat_flux_at_resonant_interfacial_layers"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2024.126228"
+        }
+      ],
+      "search_text": "",
+      "featured": true
+    },
+    {
+      "path": "/activities/sakura-202406/",
+      "kind": "activities",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "summary": "SAKURA Science Exchange Program 2024",
+      "authors": [],
+      "date": "2024-06-09T00:00:00Z",
+      "metadata": "Last updated on Nov 24, 2024",
+      "fields": {},
+      "image": "/activities/sakura-202406/featured_hubebb095335b8f5d0e352921c9eab0dd8_10067279_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "Kyutech held an international exchange program “Enhancement of International Exchange Partnerships and Global Engineering Education in Mechanical Engineering Field” under SAKURA Science Exchange Program sponsored by JST from June 9 to 14, 2024 at Tobata campus.\n10 participants including 7 students and 3 faculty members from Qingdao University of Technology, Northeastern University (CN), Qilu University of Technology and Indian Institute of Technology Guwahati were invited to join this program.\nInternational Joint Seminar on Mechanical Engineering 2024 took place to enhance academic exchange in mechanical engineering field. The participants enjoyed the 4 keynote lectures, 8 oral presentations. Events such as campus/laboratory tours and collaborative works have been conducted by 7 foreign students together with 22 Japanese students. This event prometed the international exchange and friendship of all the participants.\nThis program was supported by JST, Kitakyushu City and Kitakyushu Convention and Visitors Association.\nLink: https://www.kyutech.ac.jp/english/en-news/topics/entry-10692.html\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Jun 9, 2024 — Jun 14, 2024",
+        "event": "SAKURA Science Exchange Program 2024",
+        "url": "https://www.kyutech.ac.jp/english/en-news/topics/entry-10692.html",
+        "location": "Tobata Campus, Kyushu Institute of Technology"
+      }
+    },
+    {
+      "path": "/project/さくらサイエンス2024/",
+      "kind": "project",
+      "title": "Enhancement of global engineering education in mechanical engineering field through PBL",
+      "summary": "Japan Science and Technology Agency (JST), Online Sakura Science 2024 (PI) 2024.10–2025.01",
+      "authors": [],
+      "date": "2024-04-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "This exchange plan aims to increase interest in Japanese cutting-edge science and technology in the field of mechanical engineering through research seminars, laboratory visits, and cooperative learning activities, to create an environment that facilitates short- and long-term study at Kyutech, and to promote GE education and internationalization of Kyutech at the same time. To deepen research exchanges through research seminars and laboratory visits, and to build a system that facilitates joint research and ongoing research exchanges. In the experimental cooperative learning activities, GE course students can obtain credits for at least 60 hours of activities equivalent to online study abroad, which is appropriate and effective for the purpose and objectives of the above exchange plan.\nFund: Online Sakura Science 2024\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Online Sakura Science 2024",
+        "url": "https://www.jst.go.jp/pr/info/info1706/index.html"
+      }
+    },
+    {
+      "path": "/project/先鋭的テーマ発掘事業2024/",
+      "kind": "project",
+      "title": "Exploration of quasi-Casimir coupling induced phonon heat transfer mechanism by deep learning",
+      "summary": "Kyushu Institute of Technology Project for Discovery of Advanced Themes (PI) 2024.04–2025.03",
+      "authors": [],
+      "date": "2024-04-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "As part of the global climate change response, advanced thermal management techniques at the nanoscale are required to achieve high energy conversion efficiencies. The applicant has discovered a thermal resonance phenomenon through quasi-Casimir coupling, in which two solids sandwiched in a vacuum nanogap of several molecular layers realize phonon transport only through intermolecular interactions. This new phonon heat transfer mechanism is characterized by the fact that it does not require an electromagnetic field, since the phonon transport is induced by quasi-Casimir coupling between two solid surfaces. In other words, only phonons are allowed to transmit and not electrons, which makes the heat transfer efficiency higher than that of near-field thermal radiation or Casimir heat transfer. The aim of this study is to clarify the principles of innovative nanoscale thermal management techniques for ultra-small localized regions based on the phonon heat transfer mechanism induced by quasi-Casimir coupling in the nanogap through molecular dynamics simulations and deep learning.\nFund: Kyushu Institute of Technology Project for Discovery of Advanced Themes\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Kyushu Institute of Technology Project for Discovery of Advanced Themes",
+        "url": "https://www.kyutech.ac.jp/"
+      }
+    },
+    {
+      "path": "/activities/visiting-um/",
+      "kind": "activities",
+      "title": "Visited to University of Malaya",
+      "summary": "UM Power Energy Dedicated Advanced Centre",
+      "authors": [],
+      "date": "2023-11-01T00:00:00Z",
+      "metadata": "Last updated on Nov 24, 2024",
+      "fields": {},
+      "image": "/activities/visiting-um/featured_hu135fc491e814cb7217a236fdf31294cc_370508_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "I am thrilled to share the incredible experiences I’ve had during my recent visit to UMPEDAC Universiti Malaya on November, 2023. The warmth and hospitality extended by the faculty and students have truly left an indelible mark on my journey.\nIt was an honor to introduce Kyushu Institute of Technology (Kyutech) and our Heat Transfer Lab to the esteemed members of UMPADEC. The potential for future collaborations between our institutions is a source of great excitement, and I am eager to explore the possibilities that lie ahead.\nMy sincere appreciation goes to the UMPADEC team for guiding me through enlightening visits to the Solar Cell Lab, Hydrogen Lab, PVT Thermal Lab, and the Solar Garden. These experiences have not only expanded my knowledge but also enriched my research insights, providing valuable perspectives that will undoubtedly contribute to our shared academic pursuits.\nEngaging in discussions with University of Malaya students has been a highlight of my visit. The enthusiasm and passion exhibited by the students are truly commendable, and I look forward to the prospect of continued exchange programs between our faculties and students. To the talented UM students, I extend a warm invitation to consider the opportunities for study at Kyutech.\nI express my heartfelt gratitude for the efforts put forth by the UMPADEC team in facilitating these experiences. Your warm welcome and support have made my visit exceptionally memorable. I am confident that these interactions have laid the foundation for strong bonds between our institutions.\nWe eagerly anticipate further interactions and collaborations that will undoubtedly strengthen the ties between the Kyushu Institute of Technology and the University of Malaya. Together, we can propel academic excellence and innovation to new heights.\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Nov 2023",
+        "event": "Visited to University of Malaya",
+        "url": "https://umpedac.um.edu.my/",
+        "location": "UM Power Energy Dedicated Advanced Centre (UMPEDAC), Universiti Malaya"
+      }
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-of-scale-effect-on-kapitza-length-at-solidliquid-interface/",
+      "kind": "talk",
+      "title": "Molecular dynamics study of scale effect on Kapitza length at solid−liquid interface",
+      "summary": "Thermal Engineering Conference 2023",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2023-10-14T14:15:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Oct 14, 2023",
+        "Event": "Thermal Engineering Conference 2023",
+        "Location": "Kobe University"
+      },
+      "image": "/talk/molecular-dynamics-study-of-scale-effect-on-kapitza-length-at-solidliquid-interface/featured_hu012b6d68d1395c479c688fb0b3f51ba0_759773_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/sakura-2023/",
+      "kind": "activities",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "summary": "Online Sakura Science 2023",
+      "authors": [],
+      "date": "2023-10-06T00:00:00Z",
+      "metadata": "Last updated on Jun 2, 2024",
+      "fields": {},
+      "image": "/activities/sakura-2023/featured_huf7e17d24ebc392b9134c30e7f1ff7ee0_1783305_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "An online exchange program has been held by Heat Transfer Laboratory, Department of Mechanical Engineering at Kyushu Institute of Technology under SAKURA Exchange Program in Science by Japan Science and Technology Agency (JST) from Oct. 6 2023 to Feb. 2 2024.\nA total of 38 participants who were invited to this online exchange program are from Free University of Bozen-Bolzano, National Taiwan University of Science and Technology, Nanyang Technological University Singapore, University of Ulsan, Qingdao University of Technology, Northeastern University (CN), Shandong University, and Qilu University of Technology. They positively gave presentations at International Joint Seminar on Mechanical Engineering 2022, joined online laboratory tours, and finished collaborative works by making spins and windmills with Japanese students.\nThis online event enhanced the international exchange among all the participants. Kyutech will keep the relationship with its partner universities for education development.\nLink: https://www.kyutech.ac.jp/whats-new/topics/entry-9643.html\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Oct 6, 2023 — Feb 2, 2024",
+        "event": "Online Sakura Science 2023",
+        "url": "https://www.kyutech.ac.jp/whats-new/topics/entry-9643.html",
+        "location": "Online (hosted by Kyushu Institute of Technology)"
+      }
+    },
+    {
+      "path": "/talk/spectral-analysis-of-phonon-transport-across-an-sicsic-nanogap/",
+      "kind": "talk",
+      "title": "Spectral analysis of phonon transport across an SiC–SiC nanogap",
+      "summary": "14th International Conference on Computational Heat and Mass Transfer・Oral presentation",
+      "authors": [
+        "Xiangrui Li",
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2023-09-07T11:10:00Z",
+      "metadata": "Xiangrui Li, Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Sep 7, 2023",
+        "Event": "14th International Conference on Computational Heat and Mass Transfer",
+        "Location": "Düsseldorf University of Applied Sciences"
+      },
+      "image": "/talk/spectral-analysis-of-phonon-transport-across-an-sicsic-nanogap/featured_hu51e9c341688e14e24c6a4b4169b502a4_70265_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/local-heat-flux-of-resonant-layers-at-solidliquid-interface/",
+      "kind": "talk",
+      "title": "Local heat flux of resonant layers at solid–liquid interface",
+      "summary": "14th International Conference on Computational Heat and Mass Transfer・Oral presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2023-09-07T10:50:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Sep 7, 2023",
+        "Event": "14th International Conference on Computational Heat and Mass Transfer",
+        "Location": "Düsseldorf University of Applied Sciences"
+      },
+      "image": "/talk/local-heat-flux-of-resonant-layers-at-solidliquid-interface/featured_hu0b26b135f1be6e3a1a91034c2d5bc049_198333_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/publication/interfacial-thermal-resonance-in-an-sicsic-nanogap-with-various-atomic-surface-terminations/",
+      "kind": "publication",
+      "title": "Interfacial thermal resonance in an SiC–SiC nanogap with various atomic surface terminations",
+      "summary": "Nanoscale, 24 (2023) 8603-8610",
+      "authors": [
+        "Xiangrui Li",
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2023-04-25T00:00:00Z",
+      "metadata": "Xiangrui Li, Wentao Chen, Gyoko NagayamaApril, 2023",
+      "fields": {
+        "Type": "Journal article",
+        "Publication": "Nanoscale"
+      },
+      "image": "/publication/interfacial-thermal-resonance-in-an-sicsic-nanogap-with-various-atomic-surface-terminations/featured_hu702299a67384c7eb1aa93a91135ae257_347389_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/370233450_Interfacial_thermal_resonance_in_an_SiC-SiC_nanogap_with_various_atomic_surface_terminations"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1039/D3NR00533J"
+        }
+      ],
+      "search_text": "",
+      "featured": true
+    },
+    {
+      "path": "/talk/enhanced-heat-transfer-across-a-nanogap-by-thermal-resonance-between-adsorbed-liquid-layers/",
+      "kind": "talk",
+      "title": "Enhanced heat transfer across a nanogap by thermal resonance between adsorbed liquid layers",
+      "summary": "10th International Symposium on Applied Engineering and Sciences (SAES 2022)・Oral presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2022-12-14T10:00:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Dec 14, 2022",
+        "Event": "10th International Symposium on Applied Engineering and Sciences (SAES 2022)"
+      },
+      "image": "/talk/enhanced-heat-transfer-across-a-nanogap-by-thermal-resonance-between-adsorbed-liquid-layers/featured_hu47beb4c9c68b5994ef40d8abff9b3664_888762_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/phonon-heat-transfer-induced-by-quasi-casimir-coupling-in-a-nanogap/",
+      "kind": "talk",
+      "title": "Phonon heat transfer induced by quasi-Casimir coupling in a nanogap",
+      "summary": "International Joint Seminar on Mechanical Engineering 2022・Invited talk",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2022-11-16T14:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Nov 16, 2022",
+        "Event": "International Joint Seminar on Mechanical Engineering 2022",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/phonon-heat-transfer-induced-by-quasi-casimir-coupling-in-a-nanogap/featured_hudff59f3d27e8dc60eeb7ec4c2600d680_151384_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/activities/sakura-2022/",
+      "kind": "activities",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "summary": "Online Sakura Science 2022",
+      "authors": [],
+      "date": "2022-11-14T00:00:00Z",
+      "metadata": "Last updated on Jun 2, 2024",
+      "fields": {},
+      "image": "/activities/sakura-2022/featured_hu6034d5d6303c981663949b4a9e4597ac_2014588_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "An online event has been held by Heat Transfer Laboratory, Department of Mechanical Engineering at Kyushu Institute of Technology under SAKURA Exchange Program in Science by Japan Science and Technology Agency (JST) from Nov. 14th to Dec. 26.\nMore than 100 participants who were invited to this online exchange program are from Free University of Bozen-Bolzano, National Taiwan University of Science and Technology, Nanyang Technological University Singapore, University of Ulsan, Qingdao University of Technology, Northeastern University (CN), Shandong University, and Qilu University of Technology. They positively gave presentations at International Joint Seminar on Mechanical Engineering 2022, joined online laboratory tours, and finished collaborative works by making spins and windmills with Japanese students.\nThis online event enhanced the international exchange among all the participants. Kyutech will keep the relationship with its partner universities for education development.\nLink: https://www.kyutech.ac.jp/whats-new/topics/entry-9643.html\n",
+      "featured": false,
+      "activity_details": {
+        "date": "Nov 14, 2022 — Dec 26, 2022",
+        "event": "Online Sakura Science 2022",
+        "url": "https://www.kyutech.ac.jp/whats-new/topics/entry-9643.html",
+        "location": "Online (hosted by Kyushu Institute of Technology)"
+      }
+    },
+    {
+      "path": "/publication/effect-of-atomic-surface-termination-on-heat-transfer-across-sicsic-nanogap/",
+      "kind": "publication",
+      "title": "Effect of atomic surface termination on heat transfer across SiC–SiC nanogap",
+      "summary": "The Proceedings of the Thermal Engineering Conference 2022, 147 (2022)",
+      "authors": [
+        "Xiangrui Li",
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2022-10-08T00:00:00Z",
+      "metadata": "Xiangrui Li, Wentao Chen, Gyoko NagayamaOctober, 2022",
+      "fields": {
+        "Type": "Conference paper",
+        "Publication": "The Proceedings of the Thermal Engineering Conference 2022"
+      },
+      "image": "/publication/effect-of-atomic-surface-termination-on-heat-transfer-across-sicsic-nanogap/featured_hud39679d3f6a287fa9853b8b9a2b1c109_257134_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/374973225_Effect_of_Atomic_Surface_Termination_on_Heat_Transfer_across_SiC-SiC_Nanogapbiaomianzhongduanyuanzipeizhigananogyappuwojieshitareshusongnijibosuyingxiang?_sg%5B0%5D=rww7Ifd8EdmYS6XH-MaqK9RKXgMIuBOWWjYaSBsriytXioivhTe9tZSdJXKr16EJmUQOaPN4yRtUrUhgJVtlslzq6wcf16ih0bRoGJ1s.BCHAPUYy33iRQe83RgH8Z3VG6a1XqmpMVI-PXfFKtSgQuRqW5Wl78XHYyk0jdSC10Omb3GnhrPi-0adIBZbZww&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1299/jsmeted.2022.147"
+        }
+      ],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/publication/interfacial-thermal-resonance-between-adsorbed-liquid-layers-in-a-nanogap/",
+      "kind": "publication",
+      "title": "Interfacial thermal resonance between adsorbed liquid layers in a nanogap",
+      "summary": "The Proceedings of the Thermal Engineering Conference 2022, 146 (2022)",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2022-10-08T00:00:00Z",
+      "metadata": "Wentao Chen, Gyoko NagayamaOctober, 2022",
+      "fields": {
+        "Type": "Conference paper",
+        "Publication": "The Proceedings of the Thermal Engineering Conference 2022"
+      },
+      "image": "/publication/interfacial-thermal-resonance-between-adsorbed-liquid-layers-in-a-nanogap/featured_hue70167b8aaf56e0966ff3e25d321b857_554425_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/374972613_Interfacial_thermal_resonance_between_adsorbed_liquid_layers_in_a_nanogapnanogyappuwojieshitaguyejiemianxizhecengnoregongzhenxianxiang"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1299/jsmeted.2022.146"
+        }
+      ],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/project/grant-in-aid-for-research-activity-start-up/",
+      "kind": "project",
+      "title": "Thermal resonance induced by quasi-Casimir coupling for innovative nanoscale thermal management",
+      "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up (PI) 2022.08–2024.03",
+      "authors": [],
+      "date": "2022-08-31T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "Phonon heat transfer can be induced by quasi-Casimir coupling due to molecular interaction across a nanogap without electromagnetic fields. However, the quasi-Casimir coupling between the nanostructures and adsorbed water layers on the solid surfaces is still open for question. Therefore, we will verify phonon transmission across a nanogap via nanostructures and adsorbed water layers, focusing on quasi-Casimir coupling and thermal resonance.\nFund: Grant-in-Aid for Research Activity Start-up\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Grant-in-Aid for Research Activity Start-up",
+        "url": "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-22K20412/"
+      }
+    },
+    {
+      "path": "/project/挑戦的研究萌芽/",
+      "kind": "project",
+      "title": "Innovative nanoscale thermal management by quasi-Casimir coupling induced phonon transport",
+      "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Challenging Research (Exploratory) (Core Participant) 2022.06–2025.03",
+      "authors": [],
+      "date": "2022-06-30T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "Thermal resonance phenomenon by quasi-Casimir coupling has been discovered, in which phonon transport is realized by only intermolecular interactions between two solids sandwiched by a vacuum nanogap of a few molecular layers. Based on the quasi-Casimir coupling induced phonon heat transfer in the nanogap, this study aims to clarify the principle of innovative nanoscale thermal management technology in the ultra-small local region by both molecular dynamics simulations and experiments.\nFund: Grant-in-Aid for Challenging Research (Exploratory)\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Grant-in-Aid for Challenging Research (Exploratory)",
+        "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-22K18773/"
+      }
+    },
+    {
+      "path": "/publication/quasi-casimir-coupling-can-induce-thermal-resonance-of-adsorbed-liquid-layers-in-a-nanogap/",
+      "kind": "publication",
+      "title": "Quasi-Casimir coupling can induce thermal resonance of adsorbed liquid layers in a nanogap",
+      "summary": "Physical Chemistry Chemical Physics, 24 (2022) 11758-11769",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2022-04-29T00:00:00Z",
+      "metadata": "Wentao Chen, Gyoko NagayamaApril, 2022",
+      "fields": {
+        "Type": "Journal article",
+        "Publication": "Physical Chemistry Chemical Physics"
+      },
+      "image": "/publication/quasi-casimir-coupling-can-induce-thermal-resonance-of-adsorbed-liquid-layers-in-a-nanogap/featured_hu7c577a576b192b07ac6af10a0228bab1_383985_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/360283459_Quasi-Casimir_coupling_can_induce_thermal_resonance_of_adsorbed_liquid_layers_in_a_nanogap"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1039/D2CP01094A"
+        }
+      ],
+      "search_text": "",
+      "featured": true
+    },
+    {
+      "path": "/project/基盤研究b-2022/",
+      "kind": "project",
+      "title": "Solid-liquid-vapor interfacial transport phenomena coupled with wetting/condensation/evaporation",
+      "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (B) (Core Participant) 2022.04–2025.03",
+      "authors": [],
+      "date": "2022-04-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "Highly efficient energy conversion and utilization technologies are closely related to phase change phenomena such as macroscopic condensation, evaporation, and boiling through the solid-liquid-vapour interface. On the other hand, the effect of interfacial resistance due to the properties of the heat transfer surface relatively increases as the representative dimensions of the target system become smaller with the development of nano- and micro-technologies. In this study, we develop a microscopic heat and mass transfer model that takes into account the interfacial resistance at the solid-liquid-vapour interface.\nFund: Grant-in-Aid for Scientific Research (B)\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Grant-in-Aid for Scientific Research (B)",
+        "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K22687/"
+      }
+    },
+    {
+      "path": "/talk/phonon-heat-transfer-across-a-nanogap-a-molecular-dynamics-study/",
+      "kind": "talk",
+      "title": "Phonon heat transfer across a nanogap: a molecular dynamics study",
+      "summary": "The 60th annual meeting, The Heat Transfer Society of Japan, Kyushu Branch, 2022・Good Presentation & Research Award",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2022-03-02T10:20:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Mar 2, 2022",
+        "Event": "The 60th annual meeting, The Heat Transfer Society of Japan, Kyushu Branch, 2022"
+      },
+      "image": "/talk/phonon-heat-transfer-across-a-nanogap-a-molecular-dynamics-study/featured_hub46bfa33e805288b47f9a07cf0ac5e15_263644_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/contribution-of-interfacial-thermal-resonance-to-phonon-heat-transfer-across-a-sub-nanometer-vacuum-gap/",
+      "kind": "talk",
+      "title": "Contribution of interfacial thermal resonance to phonon heat transfer across a sub-nanometer vacuum gap",
+      "summary": "9th International Symposium on Applied Engineering and Sciences (SAES 2021)・Oral presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2021-12-08T10:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Dec 8, 2021",
+        "Event": "9th International Symposium on Applied Engineering and Sciences (SAES 2021)"
+      },
+      "image": "/talk/contribution-of-interfacial-thermal-resonance-to-phonon-heat-transfer-across-a-sub-nanometer-vacuum-gap/featured_hu7e4171e0d356c5e29e62a56d96c3a063_492310_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/interfacial-thermal-resonance-assisted-phonon-heat-transfer-across-vacuumed-nanogap/",
+      "kind": "talk",
+      "title": "Interfacial thermal resonance assisted phonon heat transfer across vacuumed nanogap",
+      "summary": "International Joint Seminar on Mechanical Engineering 2021・Oral presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2021-11-22T15:45:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Nov 22, 2021",
+        "Event": "International Joint Seminar on Mechanical Engineering 2021",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/interfacial-thermal-resonance-assisted-phonon-heat-transfer-across-vacuumed-nanogap/featured_hud0c1edf2ad95863979f7017a0048ea3f_440090_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/non-equilibrium-molecular-dynamics-simulation-on-thermal-resonance-in-a-nanogap/",
+      "kind": "talk",
+      "title": "Non-equilibrium molecular dynamics simulation on thermal resonance in a nanogap",
+      "summary": "Second Asian Conference on Thermal Science (ACTS 2021)・Oral presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2021-10-06T12:00:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Oct 6, 2021",
+        "Event": "Second Asian Conference on Thermal Science (ACTS 2021)"
+      },
+      "image": "/talk/non-equilibrium-molecular-dynamics-simulation-on-thermal-resonance-in-a-nanogap/featured_hua7964232cae8ac194540c3f9762ba753_221610_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/publication/quasi-casimir-coupling-induced-phonon-heat-transfer-across-a-vacuum-gap/",
+      "kind": "publication",
+      "title": "Quasi-Casimir coupling induced phonon heat transfer across a vacuum gap",
+      "summary": "International Journal of Heat and Mass Transfer, 176 (2021) 121431",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2021-09-01T00:00:00Z",
+      "metadata": "Wentao Chen, Gyoko NagayamaSeptember, 2021",
+      "fields": {
+        "Type": "Journal article",
+        "Publication": "International Journal of Heat and Mass Transfer"
+      },
+      "image": "/publication/quasi-casimir-coupling-induced-phonon-heat-transfer-across-a-vacuum-gap/featured_hu106df1e8984688f46930d134a4f59d75_484299_720x2500_fit_q75_h2_lanczos.webp",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.researchgate.net/publication/351870936_Quasi-Casimir_coupling_induced_phonon_heat_transfer_across_a_vacuum_gap"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2021.121431"
+        }
+      ],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/scale-effects-on-thermal-transport-at-solid-liquid-interface/",
+      "kind": "talk",
+      "title": "Scale effects on thermal transport at solid-liquid interface",
+      "summary": "8th International Symposium on Applied Engineering and Sciences (SAES 2020)・Oral presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2020-12-18T15:20:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Dec 18, 2020",
+        "Event": "8th International Symposium on Applied Engineering and Sciences (SAES 2020)",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/scale-effects-on-thermal-transport-at-solid-liquid-interface/featured_hu5f568172e7face2d94d9c2b0f2f413a3_994287_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/a-molecular-dynamics-study-on-thermal-transport-at-nanostructured-solid-liquid-interface/",
+      "kind": "talk",
+      "title": "A molecular dynamics study on thermal transport at nanostructured solid-liquid interface",
+      "summary": "International Joint Seminar on Mechanical Engineering 2020・Best oral presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2020-11-25T15:15:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Nov 25, 2020",
+        "Event": "International Joint Seminar on Mechanical Engineering 2020",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/a-molecular-dynamics-study-on-thermal-transport-at-nanostructured-solid-liquid-interface/featured_hu147abed08a4edbe3391fdb5148dd25f4_250675_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/solid-like-liquid-layers-at-nanostructured-surface-a-molecular-dynamic-simulation/",
+      "kind": "talk",
+      "title": "Solid-like liquid layers at nanostructured surface: a molecular dynamic simulation",
+      "summary": "International Joint Seminar on Mechanical Engineering 2019・Poster presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2019-11-25T15:00:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Nov 25, 2019",
+        "Event": "International Joint Seminar on Mechanical Engineering 2019",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/solid-like-liquid-layers-at-nanostructured-surface-a-molecular-dynamic-simulation/featured_hu5dd2a2f81916a6049606fbf9337e9324_409795_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/thermal-transport-at-nanostructured-solid-liquid-interface/",
+      "kind": "talk",
+      "title": "Thermal transport at nanostructured solid-liquid interface",
+      "summary": "Workshop on Thermal and Charge Transport across Flexible Nano-Interfaces 2019・Poster presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2019-11-01T17:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Nov 1, 2019",
+        "Event": "Workshop on Thermal and Charge Transport across Flexible Nano-Interfaces 2019",
+        "Location": "West Japan General Exhibition Center"
+      },
+      "image": "/talk/thermal-transport-at-nanostructured-solid-liquid-interface/featured_huec113f8b97c98855160293e9f0ca4b3d_385941_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-on-solid-liquid-interfacial-boundary-condition-in-nanoflow/",
+      "kind": "talk",
+      "title": "Molecular dynamics study on solid-liquid interfacial boundary condition in nanoflow",
+      "summary": "International Joint Seminar on Thermal Engineering 2019・Poster presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2019-08-29T13:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Aug 29, 2019",
+        "Event": "International Joint Seminar on Thermal Engineering 2019",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/molecular-dynamics-study-on-solid-liquid-interfacial-boundary-condition-in-nanoflow/featured_hu0c9c239ff28035583b9302c4028c060f_384950_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-on-interfacial-heat-and-mass-transfer-at-nanostructured-surfaces/",
+      "kind": "talk",
+      "title": "Molecular dynamics study on interfacial heat and mass transfer at nanostructured surfaces",
+      "summary": "International Joint Seminar on Mechanical Engineering 2018・Poster presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2018-11-24T13:30:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Nov 24, 2018",
+        "Event": "International Joint Seminar on Mechanical Engineering 2018",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/molecular-dynamics-study-on-interfacial-heat-and-mass-transfer-at-nanostructured-surfaces/featured_hub5a4c53b4b855f1de751548414fd386e_502044_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/talk/effects-of-nanostructures-on-solid-liquid-interfacial-heat-transfer/",
+      "kind": "talk",
+      "title": "Effects of nanostructures on solid-liquid interfacial heat transfer",
+      "summary": "International Joint Seminar on Surface Functions Brought by Nano/microstructures 2018・Poster presentation",
+      "authors": [
+        "Wentao Chen",
+        "Gyoko Nagayama"
+      ],
+      "date": "2018-08-22T14:00:00Z",
+      "metadata": "Wentao Chen, Gyoko Nagayama",
+      "fields": {
+        "Date": "Aug 22, 2018",
+        "Event": "International Joint Seminar on Surface Functions Brought by Nano/microstructures 2018",
+        "Location": "Kyushu Institute of Technology"
+      },
+      "image": "/talk/effects-of-nanostructures-on-solid-liquid-interfacial-heat-transfer/featured_hu198c65168a6a93c4e351484a88b1e54e_97032_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [],
+      "search_text": "",
+      "featured": false
+    },
+    {
+      "path": "/project/基盤研究b/",
+      "kind": "project",
+      "title": "Solid-liquid-vapor interfacial resistance related multiphysis of tribology",
+      "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (B) (Participant) 2018.04–2021.03",
+      "authors": [],
+      "date": "2018-04-01T00:00:00Z",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "Scale effect of the interfacial resistance at solid－liquid－vapor interface increases as increasing the characteristic length scale of the system, which might induce a significant deviation in microsystems from the classical heat transfer theory for macrosystem. In this study, the correlation between the interfacial resistance and the thermal/wetting/electrochemical properties at solid－liquid－vapor interface has been studied. The effects of interfacial resistances on thermal elastohydrodynamic lubrication were investigated to clarify the temperature rise and film thickness reduction of tribological surfaces under point contact.\nFund: Grant-in-Aid for Scientific Research (B)\n",
+      "featured": false,
+      "fund_details": {
+        "name": "Grant-in-Aid for Scientific Research (B)",
+        "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-18H01385/"
+      }
+    },
+    {
+      "path": "/publication/parametric-research-on-air-cooling-characteristics-using-wind-turbine-in-a-raised-floor-data-center/",
+      "kind": "publication",
+      "title": "Parametric research on air-cooling characteristics using wind turbine in a raised-floor data center",
+      "summary": "16th IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems, (2017) 885-890",
+      "authors": [
+        "Zhihang Song",
+        "Wentao Chen"
+      ],
+      "date": "2017-05-30T00:00:00Z",
+      "metadata": "Zhihang Song, Wentao ChenMay, 2017",
+      "fields": {
+        "Type": "Conference paper",
+        "Publication": "16th IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems (ITherm 2017)"
+      },
+      "image": "/publication/parametric-research-on-air-cooling-characteristics-using-wind-turbine-in-a-raised-floor-data-center/featured_hu4886237a13dc8001c6a5c53e58217f89_97685_720x2500_fit_q75_h2_lanczos_3.webp",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/ITHERM.2017.7992579"
+        }
+      ],
+      "search_text": "",
+      "featured": false
+    }
+  ],
+  "pages": [
+    {
+      "path": "/activities/",
+      "title": "Activities",
+      "body_file": "pages/activities/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/"
+    },
+    {
+      "path": "/activities/cep-kick-off/",
+      "title": "China International Talent Exchange Foundation CEP Program Kick-off Meeting",
+      "body_file": "pages/activities/cep-kick-off/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/cep-kick-off/"
+    },
+    {
+      "path": "/activities/chongqing/",
+      "title": "International Forum for Excellent Young Scholars",
+      "body_file": "pages/activities/chongqing/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/chongqing/"
+    },
+    {
+      "path": "/activities/csmnt2026/",
+      "title": "Establishment Meeting of Micro-Nano System Thermal Management Branch, Chinese Society of Micro-Nano Technology",
+      "body_file": "pages/activities/csmnt2026/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/csmnt2026/"
+    },
+    {
+      "path": "/activities/monash/",
+      "title": "Visited to Monash University Malaysia",
+      "body_file": "pages/activities/monash/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/monash/"
+    },
+    {
+      "path": "/activities/page/2/",
+      "title": "Activities",
+      "body_file": "pages/activities/page/2/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/page/2/"
+    },
+    {
+      "path": "/activities/saes2024/",
+      "title": "Served as session chairman at SAES2024",
+      "body_file": "pages/activities/saes2024/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/saes2024/"
+    },
+    {
+      "path": "/activities/sakura-2022/",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "body_file": "pages/activities/sakura-2022/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/sakura-2022/"
+    },
+    {
+      "path": "/activities/sakura-2023/",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "body_file": "pages/activities/sakura-2023/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/sakura-2023/"
+    },
+    {
+      "path": "/activities/sakura-202406/",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "body_file": "pages/activities/sakura-202406/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/sakura-202406/"
+    },
+    {
+      "path": "/activities/sakura-202410/",
+      "title": "Japan-Asia Youth Exchange Program in Science",
+      "body_file": "pages/activities/sakura-202410/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/sakura-202410/"
+    },
+    {
+      "path": "/activities/torino/",
+      "title": "Visited to Polytechnic University of Turin",
+      "body_file": "pages/activities/torino/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/torino/"
+    },
+    {
+      "path": "/activities/ulsan/",
+      "title": "Visited to University of Ulsan",
+      "body_file": "pages/activities/ulsan/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/ulsan/"
+    },
+    {
+      "path": "/activities/umpedac-visiting/",
+      "title": "JST NEXUS Exchange Program",
+      "body_file": "pages/activities/umpedac-visiting/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/umpedac-visiting/"
+    },
+    {
+      "path": "/activities/visiting-um/",
+      "title": "Visited to University of Malaya",
+      "body_file": "pages/activities/visiting-um/body.html",
+      "original_url": "https://wentaochen.netlify.app/activities/visiting-um/"
+    },
+    {
+      "path": "/categories/",
+      "title": "Categories",
+      "body_file": "pages/categories/body.html",
+      "original_url": "https://wentaochen.netlify.app/categories/"
+    },
+    {
+      "path": "/event/",
+      "title": "Conference",
+      "body_file": "pages/event/body.html",
+      "original_url": "https://wentaochen.netlify.app/event/"
+    },
+    {
+      "path": "/others/",
+      "title": "Others",
+      "body_file": "pages/others/body.html",
+      "original_url": "https://wentaochen.netlify.app/others/"
+    },
+    {
+      "path": "/others/gallery/",
+      "title": "Gallery",
+      "body_file": "pages/others/gallery/body.html",
+      "original_url": "https://wentaochen.netlify.app/others/gallery/"
+    },
+    {
+      "path": "/others/publications/",
+      "title": "Recent Publications",
+      "body_file": "pages/others/publications/body.html",
+      "original_url": "https://wentaochen.netlify.app/others/publications/"
+    },
+    {
+      "path": "/others/tags/",
+      "title": "Wentao Chen",
+      "body_file": "pages/others/tags/body.html",
+      "original_url": "https://wentaochen.netlify.app/others/tags/"
+    },
+    {
+      "path": "/project/",
+      "title": "Projects",
+      "body_file": "pages/project/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/"
+    },
+    {
+      "path": "/project/nsfc-young-scientists-inse/",
+      "title": "Study on Mechanism of Quasi-Casimir Coupling Driven Extreme Near-Field Heat Transfer in Two-Dimensional Indium Selenide",
+      "body_file": "pages/project/nsfc-young-scientists-inse/body.html"
+    },
+    {
+      "path": "/project/talented-young-scientist-program-2026/",
+      "title": "Talented Young Scientist Program 2026",
+      "body_file": "pages/project/talented-young-scientist-program-2026/body.html"
+    },
+    {
+      "path": "/project/cep-international-internship-2026/",
+      "title": "2026 International Internship Program on Green Energy Materials and Thermal management of Devices",
+      "body_file": "pages/project/cep-international-internship-2026/body.html"
+    },
+    {
+      "path": "/project/bit-astar-joint-graduate-training-base/",
+      "title": "BIT–A*STAR Joint Graduate Training Base for Smart Materials Design and Development",
+      "body_file": "pages/project/bit-astar-joint-graduate-training-base/body.html"
+    },
+    {
+      "path": "/project/grant-in-aid-for-research-activity-start-up/",
+      "title": "Thermal resonance induced by quasi-Casimir coupling for innovative nanoscale thermal management",
+      "body_file": "pages/project/grant-in-aid-for-research-activity-start-up/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/grant-in-aid-for-research-activity-start-up/"
+    },
+    {
+      "path": "/project/nexus/",
+      "title": "Cooling for photovoltaic cell with self-cleaning coating",
+      "body_file": "pages/project/nexus/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/nexus/"
+    },
+    {
+      "path": "/project/さくらサイエンス2024/",
+      "title": "Enhancement of global engineering education in mechanical engineering field through PBL",
+      "body_file": "pages/project/さくらサイエンス2024/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/%E3%81%95%E3%81%8F%E3%82%89%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B92024/"
+    },
+    {
+      "path": "/project/先鋭的テーマ発掘事業2024/",
+      "title": "Exploration of quasi-Casimir coupling induced phonon heat transfer mechanism by deep learning",
+      "body_file": "pages/project/先鋭的テーマ発掘事業2024/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/%E5%85%88%E9%8B%AD%E7%9A%84%E3%83%86%E3%83%BC%E3%83%9E%E7%99%BA%E6%8E%98%E4%BA%8B%E6%A5%AD2024/"
+    },
+    {
+      "path": "/project/基盤研究b-2022/",
+      "title": "Solid-liquid-vapor interfacial transport phenomena coupled with wetting/condensation/evaporation",
+      "body_file": "pages/project/基盤研究b-2022/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/%E5%9F%BA%E7%9B%A4%E7%A0%94%E7%A9%B6b-2022/"
+    },
+    {
+      "path": "/project/基盤研究b/",
+      "title": "Solid-liquid-vapor interfacial resistance related multiphysis of tribology",
+      "body_file": "pages/project/基盤研究b/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/%E5%9F%BA%E7%9B%A4%E7%A0%94%E7%A9%B6b/"
+    },
+    {
+      "path": "/project/挑戦的研究萌芽/",
+      "title": "Innovative nanoscale thermal management by quasi-Casimir coupling induced phonon transport",
+      "body_file": "pages/project/挑戦的研究萌芽/body.html",
+      "original_url": "https://wentaochen.netlify.app/project/%E6%8C%91%E6%88%A6%E7%9A%84%E7%A0%94%E7%A9%B6%E8%90%8C%E8%8A%BD/"
+    },
+    {
+      "path": "/publication-type/1/",
+      "title": "1",
+      "body_file": "pages/publication-type/1/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication-type/1/"
+    },
+    {
+      "path": "/publication-type/1/page/2/",
+      "title": "1",
+      "body_file": "pages/publication-type/1/page/2/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication-type/1/page/2/"
+    },
+    {
+      "path": "/publication-type/1/page/3/",
+      "title": "1",
+      "body_file": "pages/publication-type/1/page/3/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication-type/1/page/3/"
+    },
+    {
+      "path": "/publication-type/2/",
+      "title": "2",
+      "body_file": "pages/publication-type/2/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication-type/2/"
+    },
+    {
+      "path": "/publication/",
+      "title": "Publications",
+      "body_file": "pages/publication/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/"
+    },
+    {
+      "path": "/publication/effect-of-atomic-surface-termination-on-heat-transfer-across-sicsic-nanogap/",
+      "title": "Effect of atomic surface termination on heat transfer across SiC–SiC nanogap",
+      "body_file": "pages/publication/effect-of-atomic-surface-termination-on-heat-transfer-across-sicsic-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/effect-of-atomic-surface-termination-on-heat-transfer-across-sicsic-nanogap/"
+    },
+    {
+      "path": "/publication/excessive-local-heat-flux-at-resonant-interfacial-layers/",
+      "title": "Excessive local heat flux at resonant interfacial layers",
+      "body_file": "pages/publication/excessive-local-heat-flux-at-resonant-interfacial-layers/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/excessive-local-heat-flux-at-resonant-interfacial-layers/"
+    },
+    {
+      "path": "/publication/interfacial-thermal-resonance-between-adsorbed-liquid-layers-in-a-nanogap/",
+      "title": "Interfacial thermal resonance between adsorbed liquid layers in a nanogap",
+      "body_file": "pages/publication/interfacial-thermal-resonance-between-adsorbed-liquid-layers-in-a-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/interfacial-thermal-resonance-between-adsorbed-liquid-layers-in-a-nanogap/"
+    },
+    {
+      "path": "/publication/interfacial-thermal-resonance-in-an-sicsic-nanogap-with-various-atomic-surface-terminations/",
+      "title": "Interfacial thermal resonance in an SiC–SiC nanogap with various atomic surface terminations",
+      "body_file": "pages/publication/interfacial-thermal-resonance-in-an-sicsic-nanogap-with-various-atomic-surface-terminations/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/interfacial-thermal-resonance-in-an-sicsic-nanogap-with-various-atomic-surface-terminations/"
+    },
+    {
+      "path": "/publication/kapitza-length-at-solidliquid-interface/",
+      "title": "Kapitza length at solid–liquid interface: from nanoscale to microscale",
+      "body_file": "pages/publication/kapitza-length-at-solidliquid-interface/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/kapitza-length-at-solidliquid-interface/"
+    },
+    {
+      "path": "/publication/parametric-research-on-air-cooling-characteristics-using-wind-turbine-in-a-raised-floor-data-center/",
+      "title": "Parametric research on air-cooling characteristics using wind turbine in a raised-floor data center",
+      "body_file": "pages/publication/parametric-research-on-air-cooling-characteristics-using-wind-turbine-in-a-raised-floor-data-center/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/parametric-research-on-air-cooling-characteristics-using-wind-turbine-in-a-raised-floor-data-center/"
+    },
+    {
+      "path": "/publication/phonon-heat-transfer-across-an-sicsic-nanogap-under-an-external-uniform-electric-field/",
+      "title": "Phonon heat transfer across an SiC–SiC nanogap under an external uniform electric field",
+      "body_file": "pages/publication/phonon-heat-transfer-across-an-sicsic-nanogap-under-an-external-uniform-electric-field/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/phonon-heat-transfer-across-an-sicsic-nanogap-under-an-external-uniform-electric-field/"
+    },
+    {
+      "path": "/publication/quasi-casimir-coupling-can-induce-thermal-resonance-of-adsorbed-liquid-layers-in-a-nanogap/",
+      "title": "Quasi-Casimir coupling can induce thermal resonance of adsorbed liquid layers in a nanogap",
+      "body_file": "pages/publication/quasi-casimir-coupling-can-induce-thermal-resonance-of-adsorbed-liquid-layers-in-a-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/quasi-casimir-coupling-can-induce-thermal-resonance-of-adsorbed-liquid-layers-in-a-nanogap/"
+    },
+    {
+      "path": "/publication/quasi-casimir-coupling-induced-phonon-heat-transfer-across-a-vacuum-gap/",
+      "title": "Quasi-Casimir coupling induced phonon heat transfer across a vacuum gap",
+      "body_file": "pages/publication/quasi-casimir-coupling-induced-phonon-heat-transfer-across-a-vacuum-gap/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/quasi-casimir-coupling-induced-phonon-heat-transfer-across-a-vacuum-gap/"
+    },
+    {
+      "path": "/publication/weak-solidliquid-interaction-enhances-thermal-energy-transport-across-a-nanogap/",
+      "title": "Weak solid–liquid interaction enhances thermal energy transport across a nanogap",
+      "body_file": "pages/publication/weak-solidliquid-interaction-enhances-thermal-energy-transport-across-a-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication/weak-solidliquid-interaction-enhances-thermal-energy-transport-across-a-nanogap/"
+    },
+    {
+      "path": "/publication_types/",
+      "title": "Publication_types",
+      "body_file": "pages/publication_types/body.html",
+      "original_url": "https://wentaochen.netlify.app/publication_types/"
+    },
+    {
+      "path": "/slides/example/",
+      "title": "Create slides in Markdown with Wowchemy",
+      "body_file": "pages/slides/example/body.html",
+      "original_url": "https://wentaochen.netlify.app/slides/example/"
+    },
+    {
+      "path": "/tags/",
+      "title": "Tags",
+      "body_file": "pages/tags/body.html",
+      "original_url": "https://wentaochen.netlify.app/tags/"
+    },
+    {
+      "path": "/talk/a-molecular-dynamics-study-of-local-heat-transfer-at-resonant-layers-of-solidliquid-interface/",
+      "title": "A molecular dynamics study of local heat transfer at resonant layers of solid–liquid interface",
+      "body_file": "pages/talk/a-molecular-dynamics-study-of-local-heat-transfer-at-resonant-layers-of-solidliquid-interface/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/a-molecular-dynamics-study-of-local-heat-transfer-at-resonant-layers-of-solidliquid-interface/"
+    },
+    {
+      "path": "/talk/a-molecular-dynamics-study-on-thermal-transport-at-nanostructured-solid-liquid-interface/",
+      "title": "A molecular dynamics study on thermal transport at nanostructured solid-liquid interface",
+      "body_file": "pages/talk/a-molecular-dynamics-study-on-thermal-transport-at-nanostructured-solid-liquid-interface/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/a-molecular-dynamics-study-on-thermal-transport-at-nanostructured-solid-liquid-interface/"
+    },
+    {
+      "path": "/talk/contribution-of-interfacial-thermal-resonance-to-phonon-heat-transfer-across-a-sub-nanometer-vacuum-gap/",
+      "title": "Contribution of interfacial thermal resonance to phonon heat transfer across a sub-nanometer vacuum gap",
+      "body_file": "pages/talk/contribution-of-interfacial-thermal-resonance-to-phonon-heat-transfer-across-a-sub-nanometer-vacuum-gap/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/contribution-of-interfacial-thermal-resonance-to-phonon-heat-transfer-across-a-sub-nanometer-vacuum-gap/"
+    },
+    {
+      "path": "/talk/effects-of-nanostructures-on-solid-liquid-interfacial-heat-transfer/",
+      "title": "Effects of nanostructures on solid-liquid interfacial heat transfer",
+      "body_file": "pages/talk/effects-of-nanostructures-on-solid-liquid-interfacial-heat-transfer/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/effects-of-nanostructures-on-solid-liquid-interfacial-heat-transfer/"
+    },
+    {
+      "path": "/talk/elucidating-phonon-heat-transfer-and-interfacial-thermal-resistance-at-micro-nanoscale/",
+      "title": "Elucidating phonon heat transfer and interfacial thermal resistance at micro-nanoscale",
+      "body_file": "pages/talk/elucidating-phonon-heat-transfer-and-interfacial-thermal-resistance-at-micro-nanoscale/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/elucidating-phonon-heat-transfer-and-interfacial-thermal-resistance-at-micro-nanoscale/"
+    },
+    {
+      "path": "/talk/enhanced-heat-transfer-across-a-nanogap-by-thermal-resonance-between-adsorbed-liquid-layers/",
+      "title": "Enhanced heat transfer across a nanogap by thermal resonance between adsorbed liquid layers",
+      "body_file": "pages/talk/enhanced-heat-transfer-across-a-nanogap-by-thermal-resonance-between-adsorbed-liquid-layers/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/enhanced-heat-transfer-across-a-nanogap-by-thermal-resonance-between-adsorbed-liquid-layers/"
+    },
+    {
+      "path": "/talk/enhanced-thermal-energy-transport-across-a-nanogap-under-weak-solid-liquid-interaction/",
+      "title": "Enhanced thermal energy transport across a nanogap under weak solid-liquid interaction",
+      "body_file": "pages/talk/enhanced-thermal-energy-transport-across-a-nanogap-under-weak-solid-liquid-interaction/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/enhanced-thermal-energy-transport-across-a-nanogap-under-weak-solid-liquid-interaction/"
+    },
+    {
+      "path": "/talk/enhanced-thermal-transport-at-graphene-oxidewater-interface-by-uniform-electric-field/",
+      "title": "Enhanced thermal transport at graphene oxide–water interface by uniform electric field",
+      "body_file": "pages/talk/enhanced-thermal-transport-at-graphene-oxidewater-interface-by-uniform-electric-field/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/enhanced-thermal-transport-at-graphene-oxidewater-interface-by-uniform-electric-field/"
+    },
+    {
+      "path": "/talk/interfacial-resonance-induced-thermal-energy-transport-across-a-nanogap/",
+      "title": "Interfacial resonance induced thermal energy transport across a nanogap",
+      "body_file": "pages/talk/interfacial-resonance-induced-thermal-energy-transport-across-a-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/interfacial-resonance-induced-thermal-energy-transport-across-a-nanogap/"
+    },
+    {
+      "path": "/talk/interfacial-thermal-resonance-assisted-phonon-heat-transfer-across-vacuumed-nanogap/",
+      "title": "Interfacial thermal resonance assisted phonon heat transfer across vacuumed nanogap",
+      "body_file": "pages/talk/interfacial-thermal-resonance-assisted-phonon-heat-transfer-across-vacuumed-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/interfacial-thermal-resonance-assisted-phonon-heat-transfer-across-vacuumed-nanogap/"
+    },
+    {
+      "path": "/talk/local-heat-flux-of-resonant-layers-at-solidliquid-interface/",
+      "title": "Local heat flux of resonant layers at solid–liquid interface",
+      "body_file": "pages/talk/local-heat-flux-of-resonant-layers-at-solidliquid-interface/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/local-heat-flux-of-resonant-layers-at-solidliquid-interface/"
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-of-scale-effect-on-kapitza-length-at-solidliquid-interface/",
+      "title": "Molecular dynamics study of scale effect on Kapitza length at solid−liquid interface",
+      "body_file": "pages/talk/molecular-dynamics-study-of-scale-effect-on-kapitza-length-at-solidliquid-interface/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/molecular-dynamics-study-of-scale-effect-on-kapitza-length-at-solidliquid-interface/"
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-on-interfacial-heat-and-mass-transfer-at-nanostructured-surfaces/",
+      "title": "Molecular dynamics study on interfacial heat and mass transfer at nanostructured surfaces",
+      "body_file": "pages/talk/molecular-dynamics-study-on-interfacial-heat-and-mass-transfer-at-nanostructured-surfaces/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/molecular-dynamics-study-on-interfacial-heat-and-mass-transfer-at-nanostructured-surfaces/"
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/",
+      "title": "Molecular Dynamics Study on Nano/Microscale Thermal Energy Transport",
+      "body_file": "pages/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/"
+    },
+    {
+      "path": "/talk/molecular-dynamics-study-on-solid-liquid-interfacial-boundary-condition-in-nanoflow/",
+      "title": "Molecular dynamics study on solid-liquid interfacial boundary condition in nanoflow",
+      "body_file": "pages/talk/molecular-dynamics-study-on-solid-liquid-interfacial-boundary-condition-in-nanoflow/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/molecular-dynamics-study-on-solid-liquid-interfacial-boundary-condition-in-nanoflow/"
+    },
+    {
+      "path": "/talk/non-equilibrium-molecular-dynamics-simulation-on-thermal-resonance-in-a-nanogap/",
+      "title": "Non-equilibrium molecular dynamics simulation on thermal resonance in a nanogap",
+      "body_file": "pages/talk/non-equilibrium-molecular-dynamics-simulation-on-thermal-resonance-in-a-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/non-equilibrium-molecular-dynamics-simulation-on-thermal-resonance-in-a-nanogap/"
+    },
+    {
+      "path": "/talk/phonon-heat-transfer-across-a-nanogap-a-molecular-dynamics-study/",
+      "title": "Phonon heat transfer across a nanogap: a molecular dynamics study",
+      "body_file": "pages/talk/phonon-heat-transfer-across-a-nanogap-a-molecular-dynamics-study/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/phonon-heat-transfer-across-a-nanogap-a-molecular-dynamics-study/"
+    },
+    {
+      "path": "/talk/phonon-heat-transfer-across-a-nanogap-under-an-external-electric-field/",
+      "title": "Phonon heat transfer across a nanogap under an external electric field",
+      "body_file": "pages/talk/phonon-heat-transfer-across-a-nanogap-under-an-external-electric-field/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/phonon-heat-transfer-across-a-nanogap-under-an-external-electric-field/"
+    },
+    {
+      "path": "/talk/phonon-heat-transfer-induced-by-quasi-casimir-coupling-in-a-nanogap/",
+      "title": "Phonon heat transfer induced by quasi-Casimir coupling in a nanogap",
+      "body_file": "pages/talk/phonon-heat-transfer-induced-by-quasi-casimir-coupling-in-a-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/phonon-heat-transfer-induced-by-quasi-casimir-coupling-in-a-nanogap/"
+    },
+    {
+      "path": "/talk/scale-effects-on-thermal-transport-at-solid-liquid-interface/",
+      "title": "Scale effects on thermal transport at solid-liquid interface",
+      "body_file": "pages/talk/scale-effects-on-thermal-transport-at-solid-liquid-interface/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/scale-effects-on-thermal-transport-at-solid-liquid-interface/"
+    },
+    {
+      "path": "/talk/solid-like-liquid-layers-at-nanostructured-surface-a-molecular-dynamic-simulation/",
+      "title": "Solid-like liquid layers at nanostructured surface: a molecular dynamic simulation",
+      "body_file": "pages/talk/solid-like-liquid-layers-at-nanostructured-surface-a-molecular-dynamic-simulation/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/solid-like-liquid-layers-at-nanostructured-surface-a-molecular-dynamic-simulation/"
+    },
+    {
+      "path": "/talk/spectral-analysis-of-phonon-transport-across-an-sicsic-nanogap/",
+      "title": "Spectral analysis of phonon transport across an SiC–SiC nanogap",
+      "body_file": "pages/talk/spectral-analysis-of-phonon-transport-across-an-sicsic-nanogap/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/spectral-analysis-of-phonon-transport-across-an-sicsic-nanogap/"
+    },
+    {
+      "path": "/talk/thermal-transport-at-nanostructured-solid-liquid-interface/",
+      "title": "Thermal transport at nanostructured solid-liquid interface",
+      "body_file": "pages/talk/thermal-transport-at-nanostructured-solid-liquid-interface/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/thermal-transport-at-nanostructured-solid-liquid-interface/"
+    },
+    {
+      "path": "/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/",
+      "title": "Unraveling regimes of solid–liquid interfacial heat transfer from nanoscale to microscale",
+      "body_file": "pages/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/body.html",
+      "original_url": "https://wentaochen.netlify.app/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/"
+    }
+  ],
+  "source_url": "https://wentaochen.netlify.app/",
+  "content_captured": "2026-10-24",
+  "design": {
+    "accent": "#165b9e"
+  },
+  "footer_text": "© 2026 Wentao Chen. Original website content licensed under CC BY-NC-ND 4.0."
+}

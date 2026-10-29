@@ -1,0 +1,7 @@
+{
+  "source": "Sites D1, read-only snapshot before migration",
+  "captured_at": "2026-10-29",
+  "total": 113,
+  "startedAt": "2026-10-27T12:38:42.956Z",
+  "note": "Refresh from the live old site immediately before final cutover. This is not a live count."
+}

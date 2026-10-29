@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS site_views (
+  id TEXT PRIMARY KEY NOT NULL,
+  total INTEGER NOT NULL DEFAULT 0 CHECK (total >= 0),
+  started_at TEXT NOT NULL
+);

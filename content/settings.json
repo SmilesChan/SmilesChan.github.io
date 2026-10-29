@@ -1,0 +1,7 @@
+{
+  "site_url": "https://wentaochen.cn",
+  "counter": {
+    "endpoint": "",
+    "timeout_ms": 8000
+  }
+}

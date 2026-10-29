@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>内容更新说明 | Wentao Chen</title><link rel="icon" href="assets/favicon.svg"><style>body{font:18px/1.9 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:#22394d;max-width:960px;margin:40px auto;padding:0 24px 60px;background:#fbfcfd}h1{font-size:32px;line-height:1.4}h2{font-size:25px;margin-top:35px}a{color:#165b9e}code{background:#eaf1f7;padding:2px 5px;border-radius:3px;font-size:.9em;overflow-wrap:anywhere}table{width:100%;border-collapse:collapse;font-size:16px}th,td{padding:12px;border:1px solid #d3dfea;text-align:left}th{background:#eaf1f7}.table-wrap{overflow-x:auto}li{padding:5px 0}p{overflow-wrap:anywhere}nav{display:flex;gap:24px}</style></head><body>
+<nav><a href="index.html">返回首页</a><a href="editor.html">本地预览编辑助手</a></nav>
+<h1>学术网站 · 内容更新说明</h1><p>源内容与网页分开管理。修改 GitHub 仓库中的内容文件并提交后，自动检查、生成并发布网站。无需维护服务器，也无需手动上传每个 HTML。</p>
+<h2 id="edit-content">日常更新：编辑内容文件即可发布</h2><ol><li>在你的网站 GitHub 仓库中打开对应内容文件，点击编辑。</li><li>修改内容后点击 Commit changes，提交到 main 分支。只修改内容，不改发布流程。</li><li>在 Actions 查看发布结果；全部检查通过后自动更新线上网站。检查失败时，已有线上版本保持不变。</li></ol>
+<div class="table-wrap"><table><thead><tr><th>修改内容</th><th>源文件</th></tr></thead><tbody>
+<tr><td>简介、教育、邮箱、论文/项目/会议/活动列表</td><td><code>content/site.json</code></td></tr>
+<tr><td>详情正文与完整摘要</td><td><code>content/pages/对应路径/body.html</code></td></tr>
+<tr><td>奖项、任职、经历、联系信息</td><td><code>content/home/对应栏目.html</code></td></tr>
+<tr><td>Gallery 图片顺序及说明</td><td><code>content/home/gallery.html</code></td></tr>
+<tr><td>图片文件</td><td><code>static/assets/</code></td></tr>
+<tr><td>正式域名及统计接口</td><td><code>content/settings.json</code></td></tr></tbody></table></div>
+<p>同一条记录的标题自动同步到首页、列表、详情页和搜索。项目 Fund 的名称与链接修改 <code>fund_details</code>；活动 Date、Event、Location 与链接修改 <code>activity_details</code>。完整正文在对应 <code>body.html</code> 中编辑。</p>
+<h2>添加论文、项目、会议或活动</h2><ol><li>复制 <code>content/site.json</code> 中同类记录，修改 path、title、日期、作者、摘要、链接及图片。</li><li>在 pages 数组增加相应页面记录，在 <code>content/pages/</code> 增加对应 <code>body.html</code>。记录与页面的 path 必须一致。</li><li>需要首页展示时，把路径加入相应 <code>home_lists</code>。首页项目和活动显示 6 条，奖项和任职显示 8 条，其余在 View all 中查看。</li><li>上传图片到 <code>static/assets/</code>，引用地址仍写为 <code>/assets/...</code>。Gallery 的十张原始照片保留全图比例，单行滑动。</li><li>提交源内容后等待自动发布。错误的 JSON、缺失的正文或站内链接会阻止发布。</li></ol>
+<h2>浏览次数</h2><p>Total views 需要独立统计接口。GitHub Pages 不提供数据库后台。接口尚未连接时显示 Not connected；离线显示 Online only；存储或网络故障显示 Unavailable。不会使用本地存储或模拟数字冒充真实累计浏览量。后台代码和部署说明位于源码 <code>counter/</code>。</p>
+<h2>本地预览与备用编辑助手</h2><p>本地运行 <code>python3 build.py</code> 后打开 <code>public/index.html</code>。仅需 Python 3.9 及以上，无第三方依赖。图片、导航、搜索和图库可离线浏览。</p><p>本地可视化编辑助手保留用于临时预览。它下载的成品 HTML 不会写回源内容，下一次自动生成会覆盖这些改动。长期维护请始终编辑 <code>content/</code> 和 <code>static/</code>。</p>
+<h2>域名与发布</h2><p>正式域名为 <code>wentaochen.cn</code>。先在 GitHub 默认地址完成测试，再绑定域名并切换阿里云 DNS。GitHub 账号未连接前，源码准备及本地测试不代表已经完成线上迁移。仓库中的 README 与 <code>docs/DEPLOYMENT_中文.md</code> 提供完整步骤。</p>
+</body></html>

@@ -1,0 +1,46 @@
+{
+  "retrieved": "2026-10-25",
+  "description": "Original institution and company logos used alongside the corresponding Experience entries. Asset files retain the official artwork and aspect ratio.",
+  "logos": [
+    {
+      "file": "worldia.png",
+      "name": "Worldia Diamond Tools Co., Ltd.",
+      "asset_url": "https://www.worldia-tools.com/wp-content/uploads/2024/01/logo.png",
+      "page_url": "https://www.worldia-tools.com/",
+      "width": 300,
+      "height": 200
+    },
+    {
+      "file": "bit.jpg",
+      "name": "Beijing Institute of Technology",
+      "asset_url": "https://www.bit.edu.cn/images/2026-10/bit_xiaohui.jpg",
+      "page_url": "https://www.bit.edu.cn/gbxxgk/dqgz_sjb/a173964.htm",
+      "width": 351,
+      "height": 349
+    },
+    {
+      "file": "kyutech.png",
+      "name": "Kyushu Institute of Technology",
+      "asset_url": "https://www.kyutech.ac.jp/archives/001/201601/8495a0270100868d5ba9fce4a365bf29.png",
+      "page_url": "https://www.kyutech.ac.jp/",
+      "width": 468,
+      "height": 92
+    },
+    {
+      "file": "nidec.png",
+      "name": "Nidec Corporation",
+      "asset_url": "https://www.nidec.com/v=1786011787/files/topics/19296_ext_5_en_0.png",
+      "page_url": "https://www.nidec.com/en/",
+      "width": 368,
+      "height": 140
+    },
+    {
+      "file": "dongfeng.png",
+      "name": "Dongfeng Motor Corporation",
+      "asset_url": "https://www.dongfeng-global.com/images/common/nav-logo.png",
+      "page_url": "https://www.dongfeng-global.com/",
+      "width": 1361,
+      "height": 195
+    }
+  ]
+}

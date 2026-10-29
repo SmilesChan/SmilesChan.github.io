@@ -1,0 +1,33 @@
+{
+  "source_site_version": 27,
+  "source_commit": "ce9a084715e55a65d651dbbe29f8eeee90da4539",
+  "target": "GitHub Pages + wentaochen.cn",
+  "status": "local preparation and QA passed; target account connection pending",
+  "automated_tests": {
+    "python": 4,
+    "node": 6,
+    "passed": 10,
+    "failed": 0
+  },
+  "browser_checks": [
+    "Desktop: 18px body type; Projects 6, Activities 6, Awards 8, Appointment 8; Gallery last",
+    "Search: Talented Young Scientist result opens correct project detail and Fund link",
+    "390px iframe viewport: 17px body type, no horizontal document overflow, hero remains one line",
+    "390px navigation opens and Gallery click closes it and reaches Gallery",
+    "Gallery next button advances scrollLeft from 0 to 314; images use contain",
+    "Activity detail shows Date/Event/Location with actual event date and external Event link",
+    "Publication archive year filter: selecting 2025 shows exactly 2 entries"
+  ],
+  "not_verified": [
+    "GitHub repository creation/upload",
+    "GitHub Actions execution",
+    "Public GitHub Pages URL",
+    "Custom-domain DNS switch and HTTPS issuance",
+    "Independent counter deployment and live API",
+    "Access from mainland China visitor networks"
+  ],
+  "current_production_changed": false,
+  "dns_changed": false,
+  "counter_snapshot_total": 113,
+  "counter_snapshot_note": "Read-only pre-migration snapshot; refresh before cutover. No live counter hosted on GitHub Pages yet."
+}
