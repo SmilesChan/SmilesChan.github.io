@@ -17,6 +17,7 @@ SITE = json.loads((CONTENT / 'site.json').read_text(encoding='utf-8'))
 SETTINGS = json.loads((CONTENT / 'settings.json').read_text(encoding='utf-8'))
 SITE_BASE = (os.environ.get('SITE_URL') or SETTINGS['site_url']).rstrip('/')
 VISITS_VERSION = hashlib.sha256((STATIC / 'assets/visits.js').read_bytes()).hexdigest()[:12]
+CSS_VERSION = hashlib.sha256((STATIC / 'assets/site.css').read_bytes()).hexdigest()[:12]
 PROFILE = SITE['profile']
 RECORDS = SITE['records']
 BY_PATH = {r['path']: r for r in RECORDS}
@@ -80,7 +81,7 @@ def footer(path):
 def shell(path, title, body, mainclass='', description=None):
     root=posixpath.relpath('.',posixpath.dirname(page_file(path)) or '.')+'/'
     desc=description or 'Wentao Chen, Associate Professor at Beijing Institute of Technology. Micro/nanoscale thermal transport, interfacial heat transfer, and molecular dynamics.'
-    css=link('/assets/site.css',path)
+    css=link('/assets/site.css',path)+'?v='+CSS_VERSION
     return f'''<!doctype html>
 <html lang="en" data-root="{root}">
 <head>
