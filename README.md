@@ -1,5 +1,11 @@
 # Wentao Chen — GitHub Pages 学术网站
 
+**已发布：** https://smileschan.github.io/  
+**自动发布：** 修改 `content/` 并提交到 `main` 后，检查、构建和发布会自动运行。  
+**待完成：** `wentaochen.cn` 的 GitHub Pages 绑定及阿里云 DNS 切换；独立浏览次数后台连接。
+
+2026-10-29 首次部署已通过 GitHub Actions 全部检查。252 个公开网页和资源（含 84 个 HTML 页面）的 HTTP 下载与生成文件完全一致；线上搜索、论文筛选、项目链接、Gallery 和 390px 手机布局均已验证。此结果不代表已验证中国大陆各网络访问，也不代表自定义域名已切换。详见 `migration/TEST_RESULTS.json`。
+
 这是从 Sites 已发布 v27 整理的独立 GitHub Pages 源码。个人简介、论文、项目、报告、活动、奖项、任职、单位 logo、Gallery 及原有图片保留。原站继续运行，迁移目录不含原平台凭据或运行环境。
 
 ## 日常更新
