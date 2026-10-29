@@ -2,7 +2,7 @@
   "source_site_version": 27,
   "source_commit": "ce9a084715e55a65d651dbbe29f8eeee90da4539",
   "target": "GitHub Pages + wentaochen.cn",
-  "status": "local preparation and QA passed; target account connection pending",
+  "status": "GitHub Pages published; CI and live HTTP/browser QA passed; custom-domain cutover and counter backend pending",
   "automated_tests": {
     "python": 4,
     "node": 6,
@@ -19,15 +19,40 @@
     "Publication archive year filter: selecting 2025 shows exactly 2 entries"
   ],
   "not_verified": [
-    "GitHub repository creation/upload",
-    "GitHub Actions execution",
-    "Public GitHub Pages URL",
-    "Custom-domain DNS switch and HTTPS issuance",
+    "wentaochen.cn custom-domain binding, DNS switch and HTTPS issuance",
     "Independent counter deployment and live API",
     "Access from mainland China visitor networks"
   ],
   "current_production_changed": false,
   "dns_changed": false,
   "counter_snapshot_total": 113,
-  "counter_snapshot_note": "Read-only pre-migration snapshot; refresh before cutover. No live counter hosted on GitHub Pages yet."
+  "counter_snapshot_note": "Read-only pre-migration snapshot; refresh before cutover. No live counter hosted on GitHub Pages yet.",
+  "tested_source_commit": "2a8f9faf338f6090b3aec5c15a45a6e739a9ff59",
+  "published_url": "https://smileschan.github.io/",
+  "workflow_url": "https://github.com/SmilesChan/SmilesChan.github.io/actions/runs/40870964946",
+  "workflow_status": "success",
+  "remote_source_hashes_verified": {
+    "files": 267,
+    "mismatches": 0
+  },
+  "live_http_audit": {
+    "url": "https://smileschan.github.io/",
+    "checked_files": 252,
+    "html_pages": 84,
+    "passed": 252,
+    "failed": [],
+    "scope": "Public HTTP responses and SHA-256 equality with the locally generated Pages artifact; no mainland-China network test."
+  },
+  "live_browser_checks": [
+    "Desktop live homepage: Projects 6, Activities 6, Awards 8, Appointment 8, Gallery 10 photos, body font 18px",
+    "Live canonical URL matches https://smileschan.github.io/",
+    "Search Talented Young Scientist returns one result and opens the correct project/Fund link",
+    "Publication archive filters 2025 to exactly 2 entries; images retain distinct natural aspect ratios",
+    "Gallery next button advances horizontal scroll to 743px and enables previous button",
+    "Live website inside 390px viewport: 17px body font, document width 375px with no horizontal overflow, hero remains one line",
+    "Mobile menu opens; Gallery click navigates to #gallery and closes menu"
+  ],
+  "original_sites_website_changed": false,
+  "github_pages_published": true,
+  "counter_status": "Not connected; optional independent Worker/D1 adapter included, not yet deployed"
 }
