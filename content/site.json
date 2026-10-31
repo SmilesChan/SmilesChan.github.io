@@ -187,6 +187,13 @@
     ],
     "talks": [
       {
+        "path": "/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/",
+        "title": "Nonequilibrium Molecular Dynamics Study of Interfacial Thermal Transport at Micro/Nanoscales",
+        "summary": "The 4th Graduate Academic Forum of the Chinese Society of Micro-Nano Technology, Keynote talk, Forum Chair",
+        "authors": "Oct 16, 2026 — Oct 18, 2026 · Shaoxing, Zhejiang · Wentao Chen",
+        "image": null
+      },
+      {
         "path": "/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/",
         "title": "Molecular Dynamics Study on Nano/Microscale Thermal Energy Transport",
         "summary": "Research Talk at School of Engineering, Monash University Malaysia",
@@ -275,6 +282,26 @@
     ]
   },
   "records": [
+    {
+      "path": "/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/",
+      "kind": "talk",
+      "title": "Nonequilibrium Molecular Dynamics Study of Interfacial Thermal Transport at Micro/Nanoscales",
+      "summary": "The 4th Graduate Academic Forum of the Chinese Society of Micro-Nano Technology, Keynote talk, Forum Chair",
+      "authors": [
+        "Wentao Chen"
+      ],
+      "date": "2026-10-16",
+      "metadata": "Wentao Chen",
+      "fields": {
+        "Date": "Oct 16, 2026 — Oct 18, 2026",
+        "Event": "The 4th Graduate Academic Forum of the Chinese Society of Micro-Nano Technology",
+        "Location": "Shaoxing, Zhejiang"
+      },
+      "image": null,
+      "links": [],
+      "search_text": "Thermal transport at micro- and nanoscales is jointly governed by interfacial interactions, spatial confinement effects, and characteristic length scales, and conventional continuum heat conduction models based on Fourier's law may no longer be applicable to such systems. Using nonequilibrium molecular dynamics simulations, this talk systematically investigates thermal transport across vacuum nanogaps and solid–liquid interfaces. At subnanometer separations, quasi-Casimir coupling can induce phonon transmission between two solid surfaces, while interfacial thermal resonance provides efficient pathways for energy transfer. For SiC nanogaps, analyses of vibrational spectra and local heat flux reveal that identical atomic surface terminations can enhance heat transfer by improving interfacial phonon matching. In addition, a negative electric field can modulate the vibrational displacements of interfacial atoms and strengthen tunneling channels dominated by optical phonons. For solid–liquid interfacial systems, this study further examines the scale dependence of Kapitza length from the nanoscale to the microscale under constant heat flux and constant temperature difference conditions, identifying three distinct regimes of solid–liquid interfacial thermal transport: the phonon-dominated, transition, and conduction regimes. These findings provide a unified multiscale framework for understanding interfacial thermal transport and a theoretical basis for designing thermal management systems at micro- and nanoscales.",
+      "featured": false
+    },
     {
       "path": "/activities/cep-kick-off/",
       "kind": "activities",
@@ -1968,6 +1995,12 @@
       "title": "Unraveling regimes of solid–liquid interfacial heat transfer from nanoscale to microscale",
       "body_file": "pages/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/body.html",
       "original_url": "https://wentaochen.netlify.app/talk/unraveling-regimes-of-solidliquid-interfacial-heat-transfer-from-nanoscale-to-microscale/"
+    },
+    {
+      "path": "/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/",
+      "title": "Nonequilibrium Molecular Dynamics Study of Interfacial Thermal Transport at Micro/Nanoscales",
+      "body_file": "pages/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/body.html",
+      "original_url": "https://wentaochen.cn/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/"
     }
   ],
   "source_url": "https://wentaochen.netlify.app/",
