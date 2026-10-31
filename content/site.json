@@ -191,7 +191,7 @@
         "title": "Nonequilibrium Molecular Dynamics Study of Interfacial Thermal Transport at Micro/Nanoscales",
         "summary": "The 4th Graduate Academic Forum of the Chinese Society of Micro-Nano Technology, Keynote talk, Forum Chair",
         "authors": "Oct 16, 2026 — Oct 18, 2026 · Shaoxing, Zhejiang · Wentao Chen",
-        "image": null
+        "image": "/assets/conference/csmnt-graduate-forum-2026.jpg"
       },
       {
         "path": "/talk/molecular-dynamics-study-on-nano/microscale-thermal-energy-transport/",
@@ -297,7 +297,7 @@
         "Event": "The 4th Graduate Academic Forum of the Chinese Society of Micro-Nano Technology",
         "Location": "Shaoxing, Zhejiang"
       },
-      "image": null,
+      "image": "/assets/conference/csmnt-graduate-forum-2026.jpg",
       "links": [],
       "search_text": "Thermal transport at micro- and nanoscales is jointly governed by interfacial interactions, spatial confinement effects, and characteristic length scales, and conventional continuum heat conduction models based on Fourier's law may no longer be applicable to such systems. Using nonequilibrium molecular dynamics simulations, this talk systematically investigates thermal transport across vacuum nanogaps and solid–liquid interfaces. At subnanometer separations, quasi-Casimir coupling can induce phonon transmission between two solid surfaces, while interfacial thermal resonance provides efficient pathways for energy transfer. For SiC nanogaps, analyses of vibrational spectra and local heat flux reveal that identical atomic surface terminations can enhance heat transfer by improving interfacial phonon matching. In addition, a negative electric field can modulate the vibrational displacements of interfacial atoms and strengthen tunneling channels dominated by optical phonons. For solid–liquid interfacial systems, this study further examines the scale dependence of Kapitza length from the nanoscale to the microscale under constant heat flux and constant temperature difference conditions, identifying three distinct regimes of solid–liquid interfacial thermal transport: the phonon-dominated, transition, and conduction regimes. These findings provide a unified multiscale framework for understanding interfacial thermal transport and a theoretical basis for designing thermal management systems at micro- and nanoscales.",
       "featured": false
