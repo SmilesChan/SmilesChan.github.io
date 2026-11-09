@@ -238,6 +238,13 @@
     ],
     "news": [
       {
+        "path": "/activities/tysp-kick-off/",
+        "title": "2026 Talented Young Scientist Program Kick-off Meeting",
+        "summary": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology",
+        "authors": "Nov 4, 2026",
+        "image": null
+      },
+      {
         "path": "/activities/cep-kick-off/",
         "title": "China International Talent Exchange Foundation CEP Program Kick-off Meeting",
         "summary": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology",
@@ -282,6 +289,26 @@
     ]
   },
   "records": [
+    {
+      "path": "/activities/tysp-kick-off/",
+      "kind": "activities",
+      "title": "2026 Talented Young Scientist Program Kick-off Meeting",
+      "summary": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology",
+      "authors": [],
+      "date": "2026-11-04",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "The Talented Young Scientist Program (TYSP) is an important mechanism established by the Ministry of Science and Technology (MOST) of the People’s Republic of China in 2013 to promote exchanges between young Chinese and foreign professionals in science, technology and the humanities, to cultivate young leading talents in science and technology through cooperation, and to facilitate pragmatic international cooperation in science and technology. Upholding the vision of a community with a shared future for mankind, the program advocates and practices the Global Development Initiative, the Global Security Initiative, and the Global Civilization Initiative, and promotes the building of an Innovation Silk Road under the Belt and Road Initiative. Following the principles of selecting the best candidates, people-centeredness, openness and inclusiveness, and equality with mutual learning, the program provides funding support for eligible outstanding young international scientists, scholars, and researchers to come to China for work and exchange. The program aims to enhance the scientific research capacity and innovation capacity of partner countries, promote science/technology and humanities exchanges between China and countries around the world, provide a high-quality platform for young scientists to learn from each other, build long-term and stable S&T cooperative partnerships with relevant countries, and pool consensus and strength to foster people-to-people connectivity.",
+      "featured": false,
+      "activity_details": {
+        "date": "Nov 4, 2026",
+        "event": "2026 Talented Young Scientist Program Kick-off Meeting",
+        "url": "https://mp.weixin.qq.com/s/CV1MCB6OfFHb786JQwbPdg",
+        "location": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology"
+      }
+    },
     {
       "path": "/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/",
       "kind": "talk",
@@ -2001,6 +2028,12 @@
       "title": "Nonequilibrium Molecular Dynamics Study of Interfacial Thermal Transport at Micro/Nanoscales",
       "body_file": "pages/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/body.html",
       "original_url": "https://wentaochen.cn/talk/nonequilibrium-molecular-dynamics-study-of-interfacial-thermal-transport-at-micro-nanoscales/"
+    },
+    {
+      "path": "/activities/tysp-kick-off/",
+      "title": "2026 Talented Young Scientist Program Kick-off Meeting",
+      "body_file": "pages/activities/tysp-kick-off/body.html",
+      "original_url": "https://wentaochen.cn/activities/tysp-kick-off/"
     }
   ],
   "source_url": "https://wentaochen.netlify.app/",
