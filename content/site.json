@@ -66,7 +66,7 @@
       {
         "path": "/project/nsfc-young-scientists-inse/",
         "title": "Study on Mechanism of Quasi-Casimir Coupling Driven Extreme Near-Field Heat Transfer in Two-Dimensional Indium Selenide",
-        "summary": "National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C) (PI) 2027.01–2029.12",
+        "summary": "National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C) (Project Leader) 2027.01–2029.12",
         "authors": "",
         "image": null
       },
@@ -101,21 +101,21 @@
       {
         "path": "/project/さくらサイエンス2024/",
         "title": "Enhancement of global engineering education in mechanical engineering field through PBL",
-        "summary": "Japan Science and Technology Agency (JST), Online Sakura Science 2024 (PI) 2024.10–2025.01",
+        "summary": "Japan Science and Technology Agency (JST), Online Sakura Science 2024 (Project Leader) 2024.10–2025.01",
         "authors": "",
         "image": null
       },
       {
         "path": "/project/先鋭的テーマ発掘事業2024/",
         "title": "Exploration of quasi-Casimir coupling induced phonon heat transfer mechanism by deep learning",
-        "summary": "Kyushu Institute of Technology Project for Discovery of Advanced Themes (PI) 2024.04–2025.03",
+        "summary": "Kyushu Institute of Technology Project for Discovery of Advanced Themes (Project Leader) 2024.04–2025.03",
         "authors": "",
         "image": null
       },
       {
         "path": "/project/grant-in-aid-for-research-activity-start-up/",
         "title": "Thermal resonance induced by quasi-Casimir coupling for innovative nanoscale thermal management",
-        "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up (PI) 2022.08–2024.03",
+        "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up (Project Leader) 2022.08–2024.03",
         "authors": "",
         "image": null
       },
@@ -705,7 +705,7 @@
       "path": "/project/nsfc-young-scientists-inse/",
       "kind": "project",
       "title": "Study on Mechanism of Quasi-Casimir Coupling Driven Extreme Near-Field Heat Transfer in Two-Dimensional Indium Selenide",
-      "summary": "National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C) (PI) 2027.01–2029.12",
+      "summary": "National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C) (Project Leader) 2027.01–2029.12",
       "authors": [],
       "date": "2027-01-01T00:00:00Z",
       "metadata": "",
@@ -906,7 +906,7 @@
       "path": "/project/さくらサイエンス2024/",
       "kind": "project",
       "title": "Enhancement of global engineering education in mechanical engineering field through PBL",
-      "summary": "Japan Science and Technology Agency (JST), Online Sakura Science 2024 (PI) 2024.10–2025.01",
+      "summary": "Japan Science and Technology Agency (JST), Online Sakura Science 2024 (Project Leader) 2024.10–2025.01",
       "authors": [],
       "date": "2024-04-01T00:00:00Z",
       "metadata": "",
@@ -924,7 +924,7 @@
       "path": "/project/先鋭的テーマ発掘事業2024/",
       "kind": "project",
       "title": "Exploration of quasi-Casimir coupling induced phonon heat transfer mechanism by deep learning",
-      "summary": "Kyushu Institute of Technology Project for Discovery of Advanced Themes (PI) 2024.04–2025.03",
+      "summary": "Kyushu Institute of Technology Project for Discovery of Advanced Themes (Project Leader) 2024.04–2025.03",
       "authors": [],
       "date": "2024-04-01T00:00:00Z",
       "metadata": "",
@@ -1196,7 +1196,7 @@
       "path": "/project/grant-in-aid-for-research-activity-start-up/",
       "kind": "project",
       "title": "Thermal resonance induced by quasi-Casimir coupling for innovative nanoscale thermal management",
-      "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up (PI) 2022.08–2024.03",
+      "summary": "Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up (Project Leader) 2022.08–2024.03",
       "authors": [],
       "date": "2022-08-31T00:00:00Z",
       "metadata": "",
