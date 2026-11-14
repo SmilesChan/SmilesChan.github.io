@@ -129,7 +129,11 @@ def listing_card(item, number=None, image=False):
     kind=item.get('fields',{}).get('Type','')
     meta=(item['activity_details']['date'] if item['kind']=='activities'
           else item.get('fields',{}).get('Date') or item.get('metadata') or year)
-    authors=', '.join(item.get('authors') or [])
+    authors=', '.join(
+        f'<strong class="publication-author">{esc(author)}</strong>'
+        if item['kind']=='publication' and author.strip()==PROFILE['name'] else esc(author)
+        for author in (item.get('authors') or [])
+    )
     cover=f'<a class="item-image" tabindex="-1" aria-hidden="true" href="{esc(item["path"])}"><img src="{esc(item["image"])}" alt="" loading="lazy"></a>' if image and item.get('image') else ''
     num=f'<span class="item-number">{number:02d}</span>' if number else ''
     summary=item.get('summary','')
@@ -139,7 +143,7 @@ def listing_card(item, number=None, image=False):
     return f'''<article class="listing-item {item['kind']}" data-filter-item data-year="{esc(year)}" data-type="{esc(kind)}">
 {num}<div class="item-text"><p class="item-eyebrow">{esc(year)}{' · '+esc(journal) if journal else ''}</p><h3><a href="{esc(item['path'])}">{esc(item['title'])}</a></h3>
 {'<p class="item-summary">'+esc(summary)+'</p>' if summary else ''}
-{'<p class="item-authors">'+esc(authors)+'</p>' if authors else ''}
+{'<p class="item-authors">'+authors+'</p>' if authors else ''}
 {'<p class="item-meta">'+esc(meta)+'</p>' if item['kind'] in ['talk','activities'] else ''}
 <div class="item-links">{item_links(item)}<a class="detail-link" href="{esc(item['path'])}">Details <span aria-hidden="true">→</span></a></div></div>{cover}
 </article>'''
@@ -355,7 +359,8 @@ def generate():
         if item and item['kind']=='project':content=project_body(content,item)
         if path=='/others/gallery/':content=gallery_body(content)
         bread=f'<div class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/site-index/">All pages</a></div>'
-        write_page(path,title,bread+content,'detail-main')
+        main_class='detail-main publication-detail' if item and item['kind']=='publication' else 'detail-main'
+        write_page(path,title,bread+content,main_class)
     for path,(title,kind,typ) in archives.items():archive_page(path,title,kind,typ)
     achievement_archive('awards','Awards')
     achievement_archive('appointment','Appointment')

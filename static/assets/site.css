@@ -307,3 +307,9 @@ pre { font-size: 15px; }
 
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 @media print{.site-header,.site-footer,.header-actions,dialog,.filter-bar,.section-more{display:none!important}body{background:white;color:black;font-size:11pt}.home-main,.detail-main,.archive-main{max-width:none;padding:0}.hero{padding-top:0}.content-section{padding:25px 0;break-inside:auto}.listing-item,.legacy-home .card{break-inside:avoid}.item-image{max-width:120px}.intro-panel>h2{font-size:35pt}.profile-panel{border-color:#ddd}a{color:inherit}.overview-strip{padding:15px 0}.site-map-group li{font-size:10pt}}
+
+/* Emphasize the profile author in publication lists and detail pages. */
+.publication .item-authors .publication-author,
+.publication-detail .article-metadata .author-highlighted {
+  font-weight: 700;
+}
