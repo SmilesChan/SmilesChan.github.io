@@ -313,3 +313,12 @@ pre { font-size: 15px; }
 .publication-detail .article-metadata .author-highlighted {
   font-weight: 700;
 }
+
+/* Display contribution notes after each named publication author. */
+.publication-author-note,
+.publication-detail .article-metadata .author-notes {
+  display: inline;
+  font-family: inherit;
+  font-style: italic;
+  font-weight: 400;
+}

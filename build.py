@@ -123,17 +123,26 @@ def item_links(item):
     links=''.join(f'<a class="text-link" href="{esc(x["url"])}" target="_blank" rel="noopener noreferrer">{esc(x["label"])} {arrow()}</a>' for x in item.get('links',[]))
     return links
 
+def render_authors(item):
+    notes=item.get('author_notes',{}) if item['kind']=='publication' else {}
+    authors=[]
+    for author in (item.get('authors') or []):
+        label=esc(author)
+        if item['kind']=='publication' and author.strip()==PROFILE['name']:
+            label=f'<strong class="publication-author">{label}</strong>'
+        if notes.get(author):
+            label+=f' <em class="publication-author-note">({esc(notes[author])})</em>'
+        authors.append(label)
+    return ', '.join(authors)
+
+
 def listing_card(item, number=None, image=False):
     year=item.get('date','')[:4]
     journal=item.get('fields',{}).get('Publication','')
     kind=item.get('fields',{}).get('Type','')
     meta=(item['activity_details']['date'] if item['kind']=='activities'
           else item.get('fields',{}).get('Date') or item.get('metadata') or year)
-    authors=', '.join(
-        f'<strong class="publication-author">{esc(author)}</strong>'
-        if item['kind']=='publication' and author.strip()==PROFILE['name'] else esc(author)
-        for author in (item.get('authors') or [])
-    )
+    authors=render_authors(item)
     cover=f'<a class="item-image" tabindex="-1" aria-hidden="true" href="{esc(item["path"])}"><img src="{esc(item["image"])}" alt="" loading="lazy"></a>' if image and item.get('image') else ''
     num=f'<span class="item-number">{number:02d}</span>' if number else ''
     summary=item.get('summary','')

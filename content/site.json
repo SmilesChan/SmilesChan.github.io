@@ -650,7 +650,11 @@
         }
       ],
       "search_text": "",
-      "featured": true
+      "featured": true,
+      "author_notes": {
+        "Xiangrui Li": "Equal contribution",
+        "Wentao Chen": "Equal contribution"
+      }
     },
     {
       "path": "/publication/kapitza-length-at-solidliquid-interface/",
@@ -1070,7 +1074,11 @@
         }
       ],
       "search_text": "",
-      "featured": true
+      "featured": true,
+      "author_notes": {
+        "Xiangrui Li": "Equal contribution",
+        "Wentao Chen": "Equal contribution"
+      }
     },
     {
       "path": "/talk/enhanced-heat-transfer-across-a-nanogap-by-thermal-resonance-between-adsorbed-liquid-layers/",
