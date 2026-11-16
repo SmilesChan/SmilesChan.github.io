@@ -238,6 +238,13 @@
     ],
     "news": [
       {
+        "path": "/activities/tfm-editorial-board-2026/",
+        "title": "The First Meeting of the Inaugural Editorial Board of Thermal Functional Materials",
+        "summary": "Chongqing",
+        "authors": "Nov 13, 2026",
+        "image": null
+      },
+      {
         "path": "/activities/tysp-kick-off/",
         "title": "2026 Talented Young Scientist Program Kick-off Meeting",
         "summary": "Yangtze Delta Region Academy in Jiaxing, Beijing Institute of Technology",
@@ -289,6 +296,28 @@
     ]
   },
   "records": [
+    {
+      "path": "/activities/tfm-editorial-board-2026/",
+      "kind": "activities",
+      "title": "The First Meeting of the Inaugural Editorial Board of Thermal Functional Materials",
+      "title_italics": [
+        "Thermal Functional Materials"
+      ],
+      "summary": "Chongqing",
+      "authors": [],
+      "date": "2026-11-13",
+      "metadata": "",
+      "fields": {},
+      "image": null,
+      "links": [],
+      "search_text": "Thermal Functional Materials was officially launched in 2026. Sponsored by the Southwest Institute of Technology and Engineering and published in collaboration with Springer, the journal is led by Editor-in-Chief Professor Xiaodong He of Harbin Institute of Technology, a member of the Chinese Academy of Engineering. To further define the journal’s editorial direction, enhance its academic quality, and strengthen its editorial boards, the first meeting of the inaugural Editorial Board and Young Editorial Board was scheduled to take place on November 13–15, 2026, in conjunction with the 2026 International Conference on Thermal Functional Materials.",
+      "featured": false,
+      "activity_details": {
+        "date": "Nov 13, 2026",
+        "event": "The First Meeting of the Inaugural Editorial Board of Thermal Functional Materials",
+        "location": "Chongqing"
+      }
+    },
     {
       "path": "/activities/tysp-kick-off/",
       "kind": "activities",
@@ -2042,6 +2071,12 @@
       "title": "2026 Talented Young Scientist Program Kick-off Meeting",
       "body_file": "pages/activities/tysp-kick-off/body.html",
       "original_url": "https://wentaochen.cn/activities/tysp-kick-off/"
+    },
+    {
+      "path": "/activities/tfm-editorial-board-2026/",
+      "title": "The First Meeting of the Inaugural Editorial Board of Thermal Functional Materials",
+      "body_file": "pages/activities/tfm-editorial-board-2026/body.html",
+      "original_url": "https://wentaochen.cn/activities/tfm-editorial-board-2026/"
     }
   ],
   "source_url": "https://wentaochen.netlify.app/",

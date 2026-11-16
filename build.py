@@ -33,6 +33,11 @@ NAV = [('Home', '/#about'), ('Projects', '/#projects'), ('Publications', '/#feat
 def esc(value):
     return html.escape(str(value or ''), quote=True)
 
+def italic_text(value, phrases=()):
+    text=esc(value)
+    pattern='|'.join(re.escape(esc(phrase)) for phrase in phrases if phrase)
+    return re.sub(pattern,lambda match:'<em>'+match[0]+'</em>',text) if pattern else text
+
 def page_file(path):
     return (path.lstrip('/') + 'index.html') if path.endswith('/') else path.lstrip('/')
 
@@ -150,7 +155,7 @@ def listing_card(item, number=None, image=False):
     # All full abstracts stay in the corresponding detail page.
     if len(summary)>420:summary=summary[:417]+'…'
     return f'''<article class="listing-item {item['kind']}" data-filter-item data-year="{esc(year)}" data-type="{esc(kind)}">
-{num}<div class="item-text"><p class="item-eyebrow">{esc(year)}{' · '+esc(journal) if journal else ''}</p><h3><a href="{esc(item['path'])}">{esc(item['title'])}</a></h3>
+{num}<div class="item-text"><p class="item-eyebrow">{esc(year)}{' · '+esc(journal) if journal else ''}</p><h3><a href="{esc(item['path'])}">{italic_text(item['title'],item.get('title_italics',[]))}</a></h3>
 {'<p class="item-summary">'+esc(summary)+'</p>' if summary else ''}
 {'<p class="item-authors">'+authors+'</p>' if authors else ''}
 {'<p class="item-meta">'+esc(meta)+'</p>' if item['kind'] in ['talk','activities'] else ''}
@@ -279,8 +284,8 @@ def activity_body(body,item):
     details=item['activity_details']
     rows=[]
     for label,key in [('Date','date'),('Event','event'),('Location','location')]:
-        value='<br>'.join(esc(line) for line in details[key].splitlines())
-        if key=='event':
+        value='<br>'.join(italic_text(line,item.get('title_italics',[]) if key=='event' else []) for line in details[key].splitlines())
+        if key=='event' and details.get('url'):
             value=f'<a href="{esc(details["url"])}" target="_blank" rel="noopener noreferrer">{value}</a>'
         rows.append(f'''<div class="row">
 <div class="col-md-1"></div>
@@ -313,8 +318,8 @@ def project_body(body,item):
 </section>'''
     return body.replace(marker,row)
 
-def article_title(body, title):
-    return re.sub(r'<h1\b[^>]*>.*?</h1>', '<h1>'+esc(title)+'</h1>', body, count=1, flags=re.S)
+def article_title(body, title, italic_phrases=()):
+    return re.sub(r'<h1\b[^>]*>.*?</h1>', lambda match:'<h1>'+italic_text(title,italic_phrases)+'</h1>', body, count=1, flags=re.S)
 
 def validate_content():
     parsed=urlsplit(SITE_BASE)
@@ -344,7 +349,7 @@ def validate_content():
         if item['path'] in record_paths or item['path'] not in paths:
             raise ValueError('Duplicate record or missing detail page: '+item['path'])
         record_paths.add(item['path'])
-        if item['kind']=='activities' and not all(item.get('activity_details',{}).get(k) for k in ['date','event','location','url']):
+        if item['kind']=='activities' and not all(item.get('activity_details',{}).get(k) for k in ['date','event','location']):
             raise ValueError('Missing activity details: '+item['path'])
         if item['kind']=='project' and not all(item.get('fund_details',{}).get(k) for k in ['name','url']):
             raise ValueError('Missing project fund: '+item['path'])
@@ -363,7 +368,7 @@ def generate():
         content=(CONTENT/p['body_file']).read_text(encoding='utf-8')
         item=BY_PATH.get(path)
         title=item['title'] if item else p['title']
-        if item:content=article_title(content,title)
+        if item:content=article_title(content,title,item.get('title_italics',[]))
         if item and item['kind']=='activities':content=activity_body(content,item)
         if item and item['kind']=='project':content=project_body(content,item)
         if path=='/others/gallery/':content=gallery_body(content)

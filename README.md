@@ -23,6 +23,8 @@
 
 记录的 `title` 自动同步到首页、归档列表、详情页标题和搜索。项目基金链接编辑 `fund_details`；活动 Date/Event/Location 编辑 `activity_details`。完整正文仍在对应 `body.html`，新增条目应同时增加记录和正文。首页显示数量与顺序由 `home_limits`、`home_lists` 控制。
 
+活动的 `activity_details.url` 为可选项：填写后 Event 显示为链接，未填写则显示文字。若标题包含需要斜体的期刊名，可在该记录的 `title_italics` 数组中填写准确名称；首页、归档和详情页标题及活动 Event 会自动使用斜体，`title` 本身保留纯文字。
+
 `public/` 是自动生成的网页，不作为源文件提交。页脚“编辑内容”和“更新说明”会说明正确维护方式。本地可视化编辑助手仍保留，但它导出的 HTML 不会反向修改源内容，不用于自动发布。
 
 ## 首次部署与域名切换
