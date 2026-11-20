@@ -4,12 +4,12 @@ import {runInNewContext} from 'node:vm';
 import {readFileSync} from 'node:fs';
 
 const script=readFileSync(new URL('../static/assets/visits.js',import.meta.url),'utf8');
-async function run({endpoint='https://counter.example/api/site-views',provider='custom',fail=false,total=114,iframe=false,protocol='https:',prerender=false,apiSuccess=true,href='https://wentaochen.cn/project/example/?utm_source=test#section',canonical='https://wentaochen.cn/project/example/'}={}){
+async function run({storage=new Map(),endpoint='https://counter.example/api/site-views',provider='custom',fail=false,total=114,iframe=false,protocol='https:',prerender=false,apiSuccess=true,href='https://wentaochen.cn/project/example/?utm_source=test#section',canonical='https://wentaochen.cn/project/example/'}={}){
   const box={title:''},counter={textContent:'…',closest(){return box;}};
   const calls=[],listeners={};
   const window={};window.top=window;window.self=iframe?{}:window;
   const metadata={'site-views-endpoint':endpoint,'site-views-provider':provider,'site-views-started-at':'2026-10-29','site-views-timeout':'8000'};
-  const context={window,location:{protocol,href},document:{prerendering:prerender,
+  const context={localStorage:{getItem:key=>storage.get(key)??null,setItem:(key,value)=>storage.set(key,value)},window,location:{protocol,href},document:{prerendering:prerender,
     querySelector(selector){
       if(selector==='[data-site-views]')return counter;
       if(selector==='link[rel="canonical"]')return {href:canonical};
@@ -34,8 +34,8 @@ test('offline, unconfigured, invalid endpoint, iframe, and failed storage do not
     const result=await run(options);assert.equal(result.counter.textContent,text);assert.equal(result.calls.length,0);
   }
   assert.equal((await run({iframe:true})).calls.length,0);
-  const failed=await run({fail:true});assert.equal(failed.counter.textContent,'Unavailable');assert.equal(failed.calls.length,1);
-  assert.equal((await run({total:-1})).counter.textContent,'Unavailable');
+  const failed=await run({fail:true});assert.equal(failed.counter.textContent,'Temporarily unavailable');assert.equal(failed.calls.length,1);
+  assert.equal((await run({total:-1})).counter.textContent,'Temporarily unavailable');
 });
 test('prerendering defers the write and repeated events do not duplicate it',async()=>{
   for(const provider of ['custom','busuanzi']){
@@ -63,6 +63,16 @@ test('Busuanzi skips previews, shares the canonical host across aliases, and rej
   assert.equal(alias.calls[0].options.headers['x-bsz-referer'],'https://wentaochen.cn/project/example/');
   for(const options of [{apiSuccess:false},{total:-1},{total:'114'},{total:Number.MAX_SAFE_INTEGER+1}]){
     const result=await run({provider:'busuanzi',...options});
-    assert.equal(result.counter.textContent,'Unavailable');assert.equal(result.calls.length,1);
+    assert.equal(result.counter.textContent,'Temporarily unavailable');assert.equal(result.calls.length,1);
   }
+});
+
+test('site total survives a failed request across pages and refreshes on recovery',async()=>{
+  const storage=new Map();
+  await run({storage,total:1234,provider:'busuanzi'});
+  const fallback=await run({storage,fail:true,provider:'busuanzi',href:'https://wentaochen.cn/activities/',canonical:'https://wentaochen.cn/activities/'});
+  assert.equal(fallback.counter.textContent,'1,234 (last known)');
+  assert.equal(fallback.calls.length,1);
+  assert.equal((await run({storage,fail:true})).counter.textContent,'Temporarily unavailable');
+  assert.equal((await run({storage,total:1238,provider:'busuanzi'})).counter.textContent,'1,238');
 });
