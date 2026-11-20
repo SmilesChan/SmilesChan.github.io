@@ -4,6 +4,8 @@
     "provider": "busuanzi",
     "endpoint": "https://busuanzi.9420.ltd/api",
     "started_at": "2026-10-29",
+    "verified_snapshot": 284,
+    "snapshot_date": "2026-11-16",
     "timeout_ms": 8000
   }
 }

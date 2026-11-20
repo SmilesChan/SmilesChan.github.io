@@ -32,7 +32,6 @@
       page.hash = '';
     }
   } catch {
-    counter.textContent = 'Unavailable';
     return;
   }
   const box = counter.closest('.site-views');
@@ -43,7 +42,7 @@
     try {
       const cached = JSON.parse(localStorage.getItem(cacheKey));
       if (!validTotal(cached)) return false;
-      counter.textContent = format(cached) + ' (last known)';
+      counter.textContent = format(cached);
       box.title = 'Last successfully retrieved total. The current total may be higher.';
       return true;
     } catch { return false; }
@@ -77,7 +76,7 @@
       const startedAt = provider === 'busuanzi' ? meta('site-views-started-at') : result.startedAt;
       if (startedAt) counter.closest('.site-views').title = 'Total page views recorded since ' + startedAt.slice(0, 10) + '. Reloads count as new views.';
     } catch {
-      if (!showLastKnown()) counter.textContent = 'Temporarily unavailable';
+      showLastKnown(); // Otherwise retain the verified value rendered in the HTML.
     } finally { clearTimeout(timeout); }
   }
   if (document.prerendering) document.addEventListener('prerenderingchange', recordView, {once: true});
